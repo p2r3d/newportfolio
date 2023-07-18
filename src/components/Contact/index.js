@@ -19,10 +19,11 @@ function Contact() {
       <h2>Contact</h2>
       <div className="contactMe">
         {/*<i className="fa-sharp fa-regular fa-envelope"></i>*/}
-        <p>Pour démarrer un projet ensemble, ou pour tout renseignement, n'hésitez pas à me contacter via ce formulaire !</p>
+        <p><em>Pour démarrer un projet ensemble, ou pour tout renseignement,</em></p> 
+        <p><em>n'hésitez pas à me contacter via ce formulaire !</em></p>
       </div>
       <form onSubmit={handleSubmit} className='form' action='mailto:p2r3d@laposte.net' method="POST" encType="text/plain">
-        <label formname="name" className='formLabel'>Nom</label>
+        <label className='formLabel'>Nom</label>
         <input
           className='formInput'
           type="text"
@@ -30,7 +31,7 @@ function Contact() {
           value={name}
           onChange={(e) => setName(e.target.value)}
           required/>
-        <label formemail="email" className='formLabel'>Email</label>
+        <label className='formLabel'>Email</label>
         <input
           type="email"
           className='formInput'
@@ -38,7 +39,7 @@ function Contact() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required/>
-        <label formmsg="message" className='formLabel' >Message</label>
+        <label className='formLabel' >Message</label>
         <textarea
           id="message"
           className='formTextarea'

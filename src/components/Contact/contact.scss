@@ -1,7 +1,7 @@
 @import '../../style/variables';
 
 .contactSection {
-  background-color: #fff;
+  background-color: $portfolio-background-color;
   .contactMe {
     display:flex;
     flex-direction: column;
@@ -11,6 +11,7 @@
   p {
     width:60%;
     text-align: center;
+    margin:0;
   }
   .fa-sharp {
     font-size:2rem;
@@ -22,6 +23,7 @@
     justify-content: center;
     padding-bottom: 25px;
     outline: none;
+    padding-top: 20px;;
     .formLabel {
       display: flex;
       text-align: left;      
@@ -46,9 +48,10 @@
     }
     .formBtn {
       padding: 10px 20px;
-      background-color: $font-color;
-      font-family: $font-family;
-      color: #fff;
+      background-color: $portfolio-color;
+      font-family:$font-family;
+      font-size:$font-size;
+      color: $font-btn-color;
       border: none;
       cursor: pointer;
     }

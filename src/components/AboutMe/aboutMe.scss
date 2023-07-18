@@ -4,11 +4,11 @@
   display:flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: #f2f2f2;  
-  line-height: 1.7rem;
+  background-color: $portfolio-background-color-grey;  
+  line-height: 1.7rem;      
+  padding: 0 20px;  
   cursor: pointer;
   .textDiv {
-    padding: 0 20px;    
     filter:grayscale(40);
     .visible {
       margin: 0;
@@ -17,12 +17,12 @@
     .invisible {
       margin-top: 10px;
       display: none;
-    }
-    .openTextBtn {
-      font-size: 25px;
-      background-color: transparent;
-      color: $font-color;
-      border: none;
-    }
+    }  
+  }
+  .openTextBtn {
+    font-size: 25px;
+    background-color: transparent;
+    color: $font-color;
+    border: none;
   }
 }

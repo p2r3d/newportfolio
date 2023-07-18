@@ -3,11 +3,11 @@
   width:100%;
   height:100%;
   margin:0;
-  z-index: 5;
+  background-color:  $portfolio-background-color;
   .picturesDiv {
     display: flex;
     position : relative;  
-    margin-right: 20px;
+    margin-right: 0 20px;
   }
   .slideshowImg {
     overflow: hidden;
@@ -17,7 +17,7 @@
   }
   .PArrow {
     position: absolute;
-    top: 45%;
+    top: 48%;
     left: 1%;
     height: 40px;
   }
@@ -33,7 +33,7 @@
   }
   .NArrow {
     position: absolute;
-    top: 45%;
+    top: 48%;
     right: 1%;
     height: 40px;
     transform:rotate(180deg);
@@ -46,10 +46,42 @@
   }
 }
 /************* Tablette *******************/
-@media screen and (min-width:769px) and (max-width: 1023px){
-
+@media screen and (min-width:770px) and (max-width: 1023px){
+.slideshowSection {
+  .picturesDiv {
+    display: flex;
+    position : relative;  
+    margin: 0 10px;
+  }
+  .PArrow {
+    height: 30px;
+  }
+  .NArrow {
+    position: absolute;
+    top: 48%;
+    right: 1%;
+    height: 30px;
+    transform:rotate(180deg);
+  }
+  .slideshowCounter {
+    font-size:1rem;
+  } 
+}
 }
 /************* Mobile *******************/
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 769px) {
+.slideshowSection {
+  .picturesDiv {
+    display: flex;
+    position : relative;  
+    margin: 0 10px;
+  }
+  .PArrow, .NArrow {
+    height: 20px;
+  }
+  .slideshowCounter {
+    display: none;
+  } 
 }
+}
+

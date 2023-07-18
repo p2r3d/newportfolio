@@ -5,7 +5,6 @@ function Card({ project, onOpenModal }) {
   const handleCardClick = () => {
     onOpenModal(project);
   };
-console.log(project);
   return (
     <div
       className=""

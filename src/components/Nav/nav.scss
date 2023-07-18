@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: $portfolio-background-color;
   .logoDiv {
     padding-left: 50px;
     align-items: center;
@@ -18,9 +18,10 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 40px;
-    gap: 1rem;
-    font-size: 1.1rem;
+    justify-content: space-between;
+    padding: 40px 0;
+    gap: 2rem;
+    font-size: 1.2rem;
     .navLink {
       display: flex;
       align-items: center;
@@ -41,10 +42,45 @@
         transition: width 0.3s ease-in-out;
       }
       &:hover {
-        background-color: #f2f2f2; 
+        background-color:  $portfolio-background-color-grey; 
         &::before {
           width: 100%; 
         }
+      }
+    }
+  }
+}
+/************* Tablette *******************/
+@media screen and (min-width: 770px) and (max-width: 1023px) {
+.navDiv {
+  .logoDiv {
+    padding-left: 10px;
+    i {
+      font-size: 30px;
+    }
+  }
+  .navbar {
+    padding: 20px 0;
+    gap: 0.8rem;
+    font-size: 1.2rem;
+    }
+  }
+}
+/************* Mobile *******************/
+@media screen and (max-width: 769px) {
+.navDiv {
+  .logoDiv {
+    padding-left: 1px;
+    i {
+      font-size: 30px;
+    }
+  }
+  .navbar {
+    padding: 10px 0;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+    .navLink {
+      padding:10px;
       }
     }
   }

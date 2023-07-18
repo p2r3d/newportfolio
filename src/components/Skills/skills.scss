@@ -1,7 +1,7 @@
 @import '../../style/variables';
 
 .skillsSection{ 
-  background-color: #f2f2f2;
+  background-color:  $portfolio-background-color-grey;
   display: flex;
   flex-direction: column;
   margin: 30px 0;
@@ -38,4 +38,23 @@
 }
 .skillsDiv .colDiv:hover {
   transform: scale(1.2);
+}
+/************* Tablette *******************/
+@media screen and (min-width:770px) and (max-width: 1023px){
+  .skillsSection {
+    .skillsDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+/************* Mobile *******************/
+@media screen and (max-width: 769px){
+.skillsSection {
+    .skillsDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+  }
 }

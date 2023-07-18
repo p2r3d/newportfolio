@@ -19,7 +19,7 @@
     gap:20px;
     max-width: 800px;
     padding: 20px;
-    background-color: #fff;
+    background-color:$portfolio-background-color;
     position: relative;
     .modalCloseBtn {
       position: absolute;
@@ -30,38 +30,93 @@
       font-size: 22px;
       border-radius: 6px;
       padding:0 12px;
-      color: #fff;
+      color: $font-btn-color;
       background-color: $font-color;
       border:0;
       cursor: pointer;
     }
     .modalTitle {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
+      margin:0;
       font-weight: bold;
       margin-bottom: 10px;
     }
     .modalDescription {
       font-size: 1.2rem;
-      margin-bottom: 20px;
+      margin-bottom: 20px;       
+      padding:0;
+      margin:0;
     }
     .cardTechnologies{
       display:flex;
       flex-direction: row;
       align-items: center;
+      flex-wrap: wrap;
       gap: 20px;
       filter: grayscale(80%);
       transition: opacity 2s ease, max-height 2s ease;    
       .cardTechnology {
         width: 50px;
         height:50px;
+        object-fit:cover;
       }
-      
     }  
-     
   }
-
 }
-
-
-
-
+/************* Tablette *******************/
+@media screen and (min-width: 770px) and (max-width: 1023px) {
+  .modal {
+    .modalContent {
+      padding:20px 0;
+      .modalCloseBtn {
+        width:20 px;
+        height: 35px;
+        font-size: 19px;
+      }
+      .modalTitle {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      }
+      .modalDescription {
+        font-size: 1.2rem;
+      }
+      .cardTechnologies {
+      gap: 10px;
+        .cardTechnology {
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+  }
+}
+/************* Mobile *******************/
+@media screen and (max-width: 769px) {
+  .modal {
+    .modalContent {
+      padding:20px 0;
+      .modalCloseBtn {
+        width:15 px;
+        height: 30px;
+        font-size: 16px;
+      }
+      .modalTitle {
+      font-size: 1.6rem;
+      font-weight: bold;
+      }
+      .modalDescription {
+        font-size: 1.2rem;
+        padding : 0 10px;
+        text-align: center;
+      }
+      .cardTechnologies {
+        gap: 5px;
+        .cardTechnology {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}

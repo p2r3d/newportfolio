@@ -20,14 +20,16 @@ h2 {
 padding : 20px 0 0 20px;
 }
 /************* Tablette *******************/
-@media screen and (min-width:769px) and (max-width: 1023px){
+@media screen and (min-width:770px) and (max-width: 1023px){
   body {
-    padding :30px;
+    padding :30px;  
+    font-size : $font-size-tablet;
   }
 } 
 /************* Mobile *******************/
-@media (max-width: 768px){
+@media (max-width: 769px){
    body {
     padding :20px;
+    font-size : $font-size-mobil;
   }
 }

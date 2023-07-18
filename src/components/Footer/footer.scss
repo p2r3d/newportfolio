@@ -7,23 +7,19 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
-
 }
-
-
 /************* Tablette *******************/
-@media screen and (min-width:769px) and (max-width: 1023px){
+@media screen and (min-width:770px) and (max-width: 1023px){
   .footer {
-    .footerImg, .footerTitle{
+    .footerTitle{
       font-size: 18px;
     } 
   }
 }
 /************* Mobile *******************/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 769px){
   .footer {
-    .footerImg, .footerTitle{
+    .footerTitle{
       font-size: 12px;
     } 
   }
