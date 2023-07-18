@@ -1,0 +1,44 @@
+ {
+       "skills": [
+         {
+           "id": 1,
+           "title": "Sites Internet",
+           "Description":["Site vitrine","Evénements"]
+         },
+         {
+           "id": 2,
+           "title": "Conception graphique & Webdesign " ,
+           "Description":["Logos", "templates", "plaquettes", "flyers"]         
+         },
+         {
+           "id": 3,
+           "title": "CMS",
+           "Description":["Wordpress", "Joomla", "Drupal"]
+         },
+         {
+           "id": 4,
+           "title": "Intégration HTML / CSS ",
+           "Description":["standards Web", "Green Code"]           
+         },
+         {
+           "id": 5,
+           "title": "Pages dynamiques JavaScript",
+           "Description":["composants React", "animations CSS"]           
+         },
+         {
+           "id": 6,
+           "title": "Validation W3C, référencement naturel SEO ",
+           "Description":["Accessibilité (ARIA)","Optimisation des performances"]
+         },
+         {
+           "id": 7,
+           "title": "Conception multi-plateformes ",
+           "Description":["PC", "Tablette","Mobile"]
+         },
+         {
+           "id": 8,
+           "title": "Gestion de projets ",
+           "Description":["Méthodes agiles","Scrum"]
+         }
+       ]
+     }

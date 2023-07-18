@@ -1,0 +1,51 @@
+@import '../../style/variables';
+
+.navDiv {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  .logoDiv {
+    padding-left: 50px;
+    align-items: center;
+    i {
+      font-size: 40px;
+      color: $font-color;
+    }
+  }
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px;
+    gap: 1rem;
+    font-size: 1.1rem;
+    .navLink {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $font-color;
+      text-decoration-line: none;
+      transition: all 0.3s ease-in-out;
+      position: relative;
+      padding:10px;
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        width: 0;
+        height: 2px;
+        background-color: $font-color;
+        transition: width 0.3s ease-in-out;
+      }
+      &:hover {
+        background-color: #f2f2f2; 
+        &::before {
+          width: 100%; 
+        }
+      }
+    }
+  }
+}

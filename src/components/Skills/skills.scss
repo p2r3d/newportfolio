@@ -1,0 +1,41 @@
+@import '../../style/variables';
+
+.skillsSection{ 
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+  .skillsDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    .colDiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;    
+      padding-top:10px;
+      ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:0;
+        font-size: 16px;
+        transition: transform 0.3s ease-in-out; 
+      }
+      h3{
+        margin:0;
+        font-weight:400;   
+        color:$font-color;    
+        filter:grayscale(40);
+      }
+    }
+  }
+  .skillsDiv .fas {
+    font-size: 2rem;
+    filter:grayscale(40);
+  }
+}
+.skillsDiv .colDiv:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,28 @@
+@import '../../style/variables';
+
+.aboutMe {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #f2f2f2;  
+  line-height: 1.7rem;
+  cursor: pointer;
+  .textDiv {
+    padding: 0 20px;    
+    filter:grayscale(40);
+    .visible {
+      margin: 0;
+      overflow: hidden; 
+    }
+    .invisible {
+      margin-top: 10px;
+      display: none;
+    }
+    .openTextBtn {
+      font-size: 25px;
+      background-color: transparent;
+      color: $font-color;
+      border: none;
+    }
+  }
+}

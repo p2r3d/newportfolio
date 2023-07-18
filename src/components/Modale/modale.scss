@@ -1,0 +1,67 @@
+@import '../../style/variables';
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);    
+  z-index: 10;  
+  .modalContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    gap:20px;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    position: relative;
+    .modalCloseBtn {
+      position: absolute;
+      top: 15px;
+      right: 15px;  
+      height: 40px;
+      width:60 px;
+      font-size: 22px;
+      border-radius: 6px;
+      padding:0 12px;
+      color: #fff;
+      background-color: $font-color;
+      border:0;
+      cursor: pointer;
+    }
+    .modalTitle {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .modalDescription {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .cardTechnologies{
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+      filter: grayscale(80%);
+      transition: opacity 2s ease, max-height 2s ease;    
+      .cardTechnology {
+        width: 50px;
+        height:50px;
+      }
+      
+    }  
+     
+  }
+
+}
+
+
+
+

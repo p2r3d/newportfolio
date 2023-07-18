@@ -21,3 +21,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# variables environnement
+.env
+
+# production
+/build
+
+*.map

@@ -1,0 +1,84 @@
+ {
+       "technologies": [
+         {
+           "id": 1,
+           "title": "HTML5",
+           "picture": "html5.webp"
+         },
+         {
+           "id": 2,
+           "title": "CSS3",           
+           "picture": "css3.webp"
+         },
+         {
+           "id": 3,
+           "title": "Javascript",
+            "picture": "js.webp"
+         },
+         {
+           "id": 4,
+           "title": "React.js",           
+           "picture": "react.webp"
+         },
+         {
+           "id": 5,
+           "title": "Node.js",           
+           "picture": "nodejs.webp"
+         },
+         {
+           "id": 6,
+           "title": "Express.js",
+           "picture": "express.webp"
+         },
+         {
+           "id": 7,
+           "title": "MongoDB.js",
+           "picture": "mongodb.webp"
+         },
+         {
+           "id": 8,
+           "title": "Figma",
+           "picture": "figma.webp"
+         },
+         {
+           "id": 9,
+           "title": "Wave",
+           "picture": "wave.webp"
+         },
+         {
+           "id": 10,
+           "title": "Sass",
+           "picture": "sass.webp"
+         },
+         {
+           "id": 11,
+           "title": "Squoosh",
+           "picture": "squoosh.webp"
+         },
+         {
+           "id": 12,
+           "title": "Trello",
+           "picture": "trello.webp"
+         },
+         {
+           "id": 13,
+           "title": "Github",
+           "picture": "github.webp"
+         },
+         {
+           "id": 14,
+           "title": "Google Dev Tools",
+           "picture": "googleDevTools.webp"
+         },
+         {
+           "id": 15,
+           "title": "Lighthouse",
+           "picture": "lighthouse.webp"
+         },
+         {
+           "id": 16,
+           "title": "JSON Web Token",
+           "picture": "jwt.webp"
+         }
+       ]
+     }

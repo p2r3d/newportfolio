@@ -1,0 +1,30 @@
+@import '../../style/variables';
+@import '../../style/placeholders';
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+}
+
+
+/************* Tablette *******************/
+@media screen and (min-width:769px) and (max-width: 1023px){
+  .footer {
+    .footerImg, .footerTitle{
+      font-size: 18px;
+    } 
+  }
+}
+/************* Mobile *******************/
+@media screen and (max-width: 768px){
+  .footer {
+    .footerImg, .footerTitle{
+      font-size: 12px;
+    } 
+  }
+}

@@ -1,0 +1,57 @@
+@import '../../style/variables';
+
+.contactSection {
+  background-color: #fff;
+  .contactMe {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+  }
+  p {
+    width:60%;
+    text-align: center;
+  }
+  .fa-sharp {
+    font-size:2rem;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+    outline: none;
+    .formLabel {
+      display: flex;
+      text-align: left;      
+      margin-bottom: 1px;
+    }
+    .formInput {
+      outline: none;
+      font-family: $font-family;
+      width: 40%;
+      padding: 10px;
+      border: 1px solid $font-color;
+      margin-bottom: 10px;
+    }
+    .formTextarea {
+      outline: none;
+      font-family: $font-family;
+      width: 40%;
+      padding: 10px;
+      border: 1px solid $font-color;
+      margin-bottom: 10px;
+      resize: none;
+    }
+    .formBtn {
+      padding: 10px 20px;
+      background-color: $font-color;
+      font-family: $font-family;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  }
+    
+}

@@ -1,0 +1,65 @@
+ {
+       "projects": [
+         {
+           "id": 1,
+           "title": "Booki",
+           "picture": "booki.webp",
+           "description": "Création de la page d'accueil d'une agence de voyage",
+           "technos": [1,2,8],
+           "pictures":["booki_mission.webp","booki_0.webp","booki_1.webp"],
+           "code" : "https://github.com/p2r3d/P2_Booki",
+           "site" : "https://p2r3d.github.io/P2_Booki/"
+         },
+         {
+           "id": 2,
+           "title": "Sophie Bluel",           
+           "picture": "SB_0.webp",
+           "description": "Création d'une page web dynamique avec JavaScript",           
+           "technos": [1,2,3,8],
+           "pictures":["SB_mission.webp","SB_0.webp","SB_1.webp","SB_2.webp"],
+           "code" : "https://github.com/p2r3d/https://github.com/p2r3d/P3_SophieBluel",
+           "site" : ""
+
+         },
+         {
+           "id": 3,
+           "title": "Menu maker",
+            "picture": "MenuMaker.webp",
+           "description": "Planification du développement d'un site de fabrication de menus de restaurants",
+           "technos": [1,2,3,8,12],
+           "pictures":["MM_mission.webp","MM_recap.webp","MM_processus.webp","MM_communication.webp","MM_espace.webp","MM_communication.webp"],
+           "code" : "",
+           "site" : ""
+         },
+         {
+           "id": 4,
+           "title": "Nina Carducci",           
+           "picture": "NinaC.webp",
+           "description": "Débug et optimisation d'un site d'une photographe",           
+           "technos": [8,9,11,12,14,15],
+           "pictures":["NC_mission.webp","NC_recap.webp","NC_referencement.webp","NC_seo.webp","NC_reseaux.webp","NC_scores.webp","NC_accessibilite.webp","NC_portfolio.webp"],
+           "code" : "https://github.com/p2r3d/nina-carducci.github.io",
+           "site" : ""
+         },
+         {
+           "id": 5,
+           "title": "Kasa",           
+           "picture": "kasa.webp",
+           "description": "Création d'une application web de location immobilière avec React",
+           "technos": [4,5,7,8,10],
+           "pictures":["kasa_mission.webp","kasa_cap.webp","kasa_cap1.webp","kasa_cap2.webp","kasa.webp"],
+           "code" : "https://github.com/p2r3d/p6_kasa",
+           "site" : ""
+         },
+         {
+           "id": 6,
+           "title": "Vieux Grimoire",
+           "picture": "VieuxGrimoire.webp",
+           "description": "Développement du backend pour un site de notation de livres.",
+           "technos": [5,6,7,14,16],
+           "pictures":["VG_mission.webp","VG_0.webp","VG_1.webp","VG_2.webp","VG_3.webp"],
+           "code" : "https://github.com/p2r3d/p7_vieuxGrimoire",
+           "site" : ""
+         }
+       ]
+     }

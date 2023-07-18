@@ -1,0 +1,55 @@
+@import '../../style/variables';
+.slideshowSection {
+  width:100%;
+  height:100%;
+  margin:0;
+  z-index: 5;
+  .picturesDiv {
+    display: flex;
+    position : relative;  
+    margin-right: 20px;
+  }
+  .slideshowImg {
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid $font-color;
+    transition: opacity 0.5s ease-in-out; 
+  }
+  .PArrow {
+    position: absolute;
+    top: 45%;
+    left: 1%;
+    height: 40px;
+  }
+  .PArrow:hover, .NArrow:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .NArrow:hover{
+    transform: rotate(180deg) scale(1.1);
+  }
+  .PArrowNone, .NArrowNone, .noSlideshowCounter {
+    display: none;
+  }
+  .NArrow {
+    position: absolute;
+    top: 45%;
+    right: 1%;
+    height: 40px;
+    transform:rotate(180deg);
+  }
+  .slideshowCounter {
+    position: absolute;
+    bottom :5%;
+    right: 50%;
+    color:$font-color;
+  }
+}
+/************* Tablette *******************/
+@media screen and (min-width:769px) and (max-width: 1023px){
+
+}
+/************* Mobile *******************/
+@media screen and (max-width: 768px) {
+
+}
