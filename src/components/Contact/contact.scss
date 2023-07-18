@@ -1,12 +1,11 @@
 @import '../../style/variables';
+@import '../../style/mixins';
 
 .contactSection {
   background-color: $portfolio-background-color;
   .contactMe {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;    
+    @include flex-col-center;
+    justify-content: center;    
   }
   p {
     width:60%;
@@ -17,9 +16,7 @@
     font-size:2rem;
   }
   .form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex-col-center;
     justify-content: center;
     padding-bottom: 25px;
     outline: none;

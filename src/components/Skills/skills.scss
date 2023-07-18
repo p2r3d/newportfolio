@@ -1,27 +1,28 @@
 @import '../../style/variables';
-
+@import '../../style/mixins';
 .skillsSection{ 
   background-color:  $portfolio-background-color-grey;
   display: flex;
   flex-direction: column;
   margin: 30px 0;
+  padding: 0 50px;
   .skillsDiv {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     .colDiv {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      @include flex-col-center;
       flex-wrap: wrap;    
       padding-top:10px;
       ul {
         list-style-type: none;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex-col-center;
         padding:0;
         font-size: 16px;
         transition: transform 0.3s ease-in-out; 
+        li {
+          text-align: center;
+        }
       }
       h3{
         margin:0;

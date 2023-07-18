@@ -1,9 +1,8 @@
 @import '../../style/variables';
+@import '../../style/mixins';
 
 .modal {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-center-center;
   position: fixed;
   top: 0;
   left: 0;
@@ -12,9 +11,7 @@
   background-color: rgba(0, 0, 0, 0.2);    
   z-index: 10;  
   .modalContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex-col-center;
     justify-content: center;    
     gap:20px;
     max-width: 800px;
@@ -48,9 +45,7 @@
       margin:0;
     }
     .cardTechnologies{
-      display:flex;
-      flex-direction: row;
-      align-items: center;
+      @include flex-row-center;
       flex-wrap: wrap;
       gap: 20px;
       filter: grayscale(80%);
@@ -58,7 +53,7 @@
       .cardTechnology {
         width: 50px;
         height:50px;
-        object-fit:cover;
+        object-fit:contain;
       }
     }  
   }

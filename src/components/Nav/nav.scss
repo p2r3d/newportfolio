@@ -1,10 +1,9 @@
 @import '../../style/variables';
+@import '../../style/mixins';
 
 .navDiv {
-  display: flex;
+  @include flex-center-between;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
   background-color: $portfolio-background-color;
   .logoDiv {
     padding-left: 50px;
@@ -15,17 +14,13 @@
     }
   }
   .navbar {
-    display: flex;
+    @include flex-center-between;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
     padding: 40px 0;
     gap: 2rem;
     font-size: 1.2rem;
     .navLink {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @include flex-center-center;
       color: $font-color;
       text-decoration-line: none;
       transition: all 0.3s ease-in-out;
