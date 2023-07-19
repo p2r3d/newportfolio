@@ -49,3 +49,30 @@
   font-size: 40px;
   color:$portfolio-background-color;
 }
+/************* Tablette *******************/
+@media screen and (min-width:770px) and (max-width: 1023px){
+
+}
+/************* Mobile *******************/
+@media screen and (max-width: 769px){
+ .card {
+  justify-content: center;
+  .cardImg {
+    object-fit:contain;  
+    }
+  .cardTitle {
+    height:10%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin:0;
+  }
+  .cardDescription {
+    text-align: center; 
+    font-size: 1.2rem;   
+    color: $font-color;    
+    filter:grayscale(40);
+    margin:0;
+    padding-top: 10px;
+    }
+  }
+}

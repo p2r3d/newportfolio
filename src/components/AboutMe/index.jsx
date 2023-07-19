@@ -25,7 +25,7 @@ function AboutMe() {
         … atouts précieux dans le travail de développeur, où il s’agit de jongler entre les tâches, 
         de s’adapter, et de trouver des <strong>solutions créatives</strong> aux défis techniques.
          </em></p>
-        <p><em>Enthousiaste à l'idée d'explorer vos idées, j'ai hâte d'imaginer avec vous un site internet qui vous ressemblera.</em></p>
+        <p><em>Enthousiaste à l'idée d'explorer vos idées, j'ai hâte d'imaginer un site internet à votre image.</em></p>
         </div>}
         <p className="visible"><em>La conception de sites web interactifs et esthétiquement plaisants est un défi palpitant ; 
         PME, associations ou particuliers, je serai ravie de partager mes compétences et ma passion 

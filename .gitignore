@@ -31,3 +31,5 @@ yarn-error.log*
 *.map
 
 *.txt
+
+*.webp:Zone.Identifier

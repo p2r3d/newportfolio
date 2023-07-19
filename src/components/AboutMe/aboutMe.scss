@@ -6,7 +6,7 @@
   flex-wrap: wrap;
   background-color: $portfolio-background-color-grey;  
   line-height: 1.7rem;      
-  padding: 0 20px;  
+  padding: 0 50px;  
   cursor: pointer;
   .textDiv {
     filter:grayscale(40);
@@ -24,5 +24,17 @@
     background-color: transparent;
     color: $font-color;
     border: none;
+  }
+}
+/************* Tablette *******************/
+.aboutMe {
+  line-height: 1.6rem;      
+  padding: 0 30px;  
+}
+/************* Mobile *******************/
+@media screen and (max-width: 769px){
+.aboutMe {
+  line-height: 1.4rem;      
+  padding: 0 20px;  
   }
 }
