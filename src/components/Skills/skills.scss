@@ -6,9 +6,27 @@
   flex-direction: column;
   margin: 30px 10px;
   padding: 0 50px 20px 50px;
+  .skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      border: 1px solid #ccc; 
+      border-radius: 1px; 
+      padding: 10px; 
+    }
+    li {
+      margin-bottom: 10px;
+      list-style: none;
+    }
+  }
   .skillsDiv {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    padding-top: 50px;
     .colDiv {
       @include flex-col-center;
       flex-wrap: wrap;    
@@ -19,13 +37,13 @@
         @include flex-col-center;
         padding:0;
         font-size: 16px;
-        transition: transform 0.3s ease-in-out; 
         li {
           text-align: center;
         }
       }
       h3{
         margin:0;
+        font-size:1.1rem;
         font-weight:400;   
         color:$font-color;    
         filter:grayscale(40);

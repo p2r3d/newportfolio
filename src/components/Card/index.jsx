@@ -2,6 +2,7 @@ import React from 'react';
 import "./card.scss";
 
 function Card({ project, onOpenModal }) {
+  // carte cliquée: ouverture de la mosale avec le projet sélectionné
   const handleCardClick = () => {
     onOpenModal(project);
   };

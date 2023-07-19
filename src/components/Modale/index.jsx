@@ -6,6 +6,7 @@ import Technos from "../../datas/technologies.json";
 
 function Modale({ project, onCloseModal }) {
   const handleCloseClick = () => { onCloseModal(); };
+  
   const [technoState] = useState(Technos);
 
   const technologies = project.technos.map((technoId) =>
