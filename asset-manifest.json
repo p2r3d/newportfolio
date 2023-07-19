@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/newportfolio/static/css/main.e73ea4bf.css",
-    "main.js": "/newportfolio/static/js/main.ea47ac78.js",
+    "main.css": "/newportfolio/static/css/main.aa0464cf.css",
+    "main.js": "/newportfolio/static/js/main.aa682e54.js",
     "static/media/kasa_accueil.webp": "/newportfolio/static/media/kasa_accueil.79367ec5fa6b8005f8af.webp",
     "static/media/MM_mission.webp": "/newportfolio/static/media/MM_mission.598d5b0f3331f2722f60.webp",
     "static/media/kasa_mission.webp": "/newportfolio/static/media/kasa_mission.5b7297acf4e7b45d4228.webp",
@@ -60,13 +60,11 @@
     "index.html": "/newportfolio/index.html",
     "static/media/jwt.webp": "/newportfolio/static/media/jwt.7ed68a71ed3b5fabca7b.webp",
     "static/media/figma.webp": "/newportfolio/static/media/figma.961f8e08d24b1a29d117.webp",
-    "static/media/css3.webp:Zone.Identifier": "/newportfolio/static/media/css3.webp:Zone.e0835b74bd0061cc646d.Identifier",
-    "static/media/html5.webp:Zone.Identifier": "/newportfolio/static/media/html5.webp:Zone.e0835b74bd0061cc646d.Identifier",
-    "main.e73ea4bf.css.map": "/newportfolio/static/css/main.e73ea4bf.css.map",
-    "main.ea47ac78.js.map": "/newportfolio/static/js/main.ea47ac78.js.map"
+    "main.aa0464cf.css.map": "/newportfolio/static/css/main.aa0464cf.css.map",
+    "main.aa682e54.js.map": "/newportfolio/static/js/main.aa682e54.js.map"
   },
   "entrypoints": [
-    "static/css/main.e73ea4bf.css",
-    "static/js/main.ea47ac78.js"
+    "static/css/main.aa0464cf.css",
+    "static/js/main.aa682e54.js"
   ]
 }
