@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Collapse from '../../components/Collapse'
 import './skills.scss'
 import Skills from "../../datas/skills.json";
 
@@ -8,22 +9,7 @@ function SkillsS() {
   return (
     <section id="skills" className='skillsSection'>
       <h2>Compétences</h2>
-      <div className='skillsGrid'>
-          {skillState.skills.map((skill) => ( 
-            <ul >
-            <li key={skill.id}>
-              <h3>{skill.title}</h3>
-              {skill.Description && (
-                <ul>
-                  {skill.Description.map((desc, index) => (
-                    <li key={index}>{desc}</li>
-                  ))}
-                </ul>
-              )}
-            </li></ul>
-          ))}       
-      </div>
-      <div className='skillsDiv'>
+      {/*<div className='skillsDiv'>
         <div className="colDiv">
         <i className="fas fa-desktop"></i>
           <h3>Front-end</h3>
@@ -61,8 +47,12 @@ function SkillsS() {
             <li>Github</li>
             <li>Figma</li>
           </ul>
-        </div>
-        
+        </div>       
+      </div>*/}
+      <div className="skillsGrid">
+        {skillState.skills.map((skill) => (
+          <Collapse key={skill.id} title={skill.title} description={skill.Description} />
+        ))}
       </div>
     </section>
   )

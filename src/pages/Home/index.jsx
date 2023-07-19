@@ -13,10 +13,10 @@ function Home() {
     return (
     <div className='homeContainer'>
       <Nav />
-      <AboutMe/>
-      <Gallery/>
+      <AboutMe/> 
       {/*<Gallery0/>*/}
       <Skills/>
+      <Gallery/>
       <Contact/>
       <Footer/>
     </div>);

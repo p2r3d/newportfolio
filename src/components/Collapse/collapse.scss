@@ -1,0 +1,40 @@
+@import '../../style/variables';
+@import '../../style/mixins';
+
+.collapseDiv {
+  @include flex-col-center;
+  justify-content: center;
+  border: 1px solid $font-color;
+  width:100%;
+  height:100%;
+  background-color: #fff;
+  h3{
+    text-align: center;
+    cursor: pointer;
+  }
+  h3:hover {
+  
+  }
+  ul {
+    list-style-type: none;
+    padding:0 5px;
+  }  
+  li {
+
+  }
+}
+.collapseDiv:hover {
+   background-color: $font-color;
+    color:#fff;
+    height:100%; 
+}
+/************* Tablette *******************/
+.collapseDiv {
+ 
+}
+/************* Mobile *******************/
+@media screen and (max-width: 769px){
+.collapseDiv {
+
+  }
+}

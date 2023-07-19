@@ -4,26 +4,17 @@
   background-color:  $portfolio-background-color-grey;
   display: flex;
   flex-direction: column;
-  margin: 30px 10px;
+  margin: 30px 0px;
   padding: 0 50px 20px 50px;
   .skillsGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px; 
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      border: 1px solid #ccc; 
-      border-radius: 1px; 
-      padding: 10px; 
-    }
-    li {
-      margin-bottom: 10px;
-      list-style: none;
-    }
+    gap: 10px; 
+    align-items:start;
+    justify-items: center;
+    font-size: $font-size;
   }
-  .skillsDiv {
+  /*.skillsDiv {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding-top: 50px;
@@ -53,7 +44,7 @@
   .skillsDiv .fas {
     font-size: 2rem;
     filter:grayscale(40);
-  }
+  }*/
 }
 /*.skillsDiv .colDiv:hover {
   transform: scale(1.2);

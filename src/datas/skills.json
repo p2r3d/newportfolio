@@ -2,43 +2,44 @@
        "skills": [
          {
            "id": 1,
-           "title": "Sites Internet",
-           "Description":["Site vitrine","Evénements"]
+           "title": "Développement Front-end",
+           "Description":["HTML5, CSS3, SASS et JavaScript : création de sites web modernes et interactifs en utilisant les dernières technologies front-end",
+                        "React : développement d'interfaces utilisateur réactives et dynamiques",
+                        "Composants React : construction de composants réutilisables pour favoriser une architecture modulaire et maintenable"]
+         },
+         {
+           "id": 11,
+           "title": "Développement Back-end",
+           "Description":["NodeJs, Express : création de serveurs robustes et évolutifs",
+                          "MySQL, MongoDB : stockage et gestion efficacement des données ",
+                          "APIs RESTful : mise en place de la communication entre le frontend et le backend",
+                          "Sécurité : implémentation de mécanismes d'authentification et de sécurité pour protéger les données sensibles"                    ]
          },
          {
            "id": 2,
-           "title": "Conception graphique & Webdesign " ,
-           "Description":["Logos", "templates", "plaquettes"]         
-         },
-         {
-           "id": 3,
-           "title": "CMS",
-           "Description":["Wordpress", "Joomla", "Drupal"]
+           "title": "Design Web Convivial " ,
+           "Description":["Responsive Design : adaptation de l'affichage des sites web aux mobiles, tablettes, ordinateurs",
+            "UX/UI Design : création d'interfaces utilisateur intuitives pour une agréable expérience utilisateur"]         
          },
          {
            "id": 4,
-           "title": "Intégration HTML / CSS ",
-           "Description":["standards Web", "Green Code"]           
+           "title": "Optimisation et SEO",
+           "Description":["Amélioration des performances pour un chargement rapide et une expérience utilisateur fluide",
+          "Architecture SEO-friendly : structuration du contenu et utilisation de balises HTML appropriées pour faciliter l'indexation et le classement du site par les moteurs de recherche",
+          "Accessibilité : respect des normes d'accessibilité pour permettre à tous les utilisateurs de naviguer et d'interagir avec un site facilement"]           
          },
          {
            "id": 5,
-           "title": "Pages dynamiques JavaScript",
-           "Description":["composants React", "animations CSS"]           
+           "title": "Intégration de CMS",
+           "Description":["Intégration personnalisée de sites web avec  systèmes de gestion : WordPress, Drupal, Joomla"]           
          },
          {
            "id": 6,
-           "title": "Validation W3C, référencement naturel SEO ",
-           "Description":["Accessibilité (ARIA)","Optimisation des performances"]
-         },
-         {
-           "id": 7,
-           "title": "Conception multi-plateformes ",
-           "Description":["PC", "Tablette","Mobile"]
-         },
-         {
-           "id": 8,
-           "title": "Gestion de projets ",
-           "Description":["Méthodes agiles","Scrum"]
+           "title": "Compétences Complémentaires ",
+           "Description":["Git : gestion du code source, collaboration avec les équipes de développement",
+            "Design Graphique : création de maquettes et de ressources graphiques pour les sites web", 
+            "Green Code : pratiques de programmation et de développement informatique qui visent à réduire l'empreinte environnementale en optimisant la consommation d'énergie et en minimisant les ressources utilisées"]
          }
        ]
      }
+    
