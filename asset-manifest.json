@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.21a9edcb.css",
-    "main.js": "/static/js/main.65d32e4a.js",
+    "main.css": "/static/css/main.84118a31.css",
+    "main.js": "/static/js/main.9730937a.js",
     "static/media/kasa_accueil.webp": "/static/media/kasa_accueil.79367ec5fa6b8005f8af.webp",
     "static/media/MM_mission.webp": "/static/media/MM_mission.598d5b0f3331f2722f60.webp",
     "static/media/kasa_mission.webp": "/static/media/kasa_mission.5b7297acf4e7b45d4228.webp",
@@ -56,16 +56,16 @@
     "static/media/js.webp": "/static/media/js.6627f0f7a1f496bdbb31.webp",
     "static/media/mongodb.webp": "/static/media/mongodb.bea0da412f15e220485e.webp",
     "static/media/nodejs.webp": "/static/media/nodejs.78317b797d9215ece1b4.webp",
+    "index.html": "/index.html",
     "static/media/trello.webp": "/static/media/trello.07cb05ea8252253323e7.webp",
     "static/media/jwt.webp": "/static/media/jwt.7ed68a71ed3b5fabca7b.webp",
-    "index.html": "/index.html",
     "static/media/figma.webp": "/static/media/figma.961f8e08d24b1a29d117.webp",
     "static/media/html5.webp:Zone.Identifier": "/static/media/html5.webp:Zone.e0835b74bd0061cc646d.Identifier",
-    "main.21a9edcb.css.map": "/static/css/main.21a9edcb.css.map",
-    "main.65d32e4a.js.map": "/static/js/main.65d32e4a.js.map"
+    "main.84118a31.css.map": "/static/css/main.84118a31.css.map",
+    "main.9730937a.js.map": "/static/js/main.9730937a.js.map"
   },
   "entrypoints": [
-    "static/css/main.21a9edcb.css",
-    "static/js/main.65d32e4a.js"
+    "static/css/main.84118a31.css",
+    "static/js/main.9730937a.js"
   ]
 }
