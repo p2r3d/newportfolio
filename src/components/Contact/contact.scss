@@ -2,7 +2,6 @@
 @import '../../style/mixins';
 
 .contactSection {
-  background-color: $portfolio-background-color;
   .contactMe {
     @include flex-col-center;
     justify-content: center;    
@@ -52,6 +51,5 @@
       border: none;
       cursor: pointer;
     }
-  }
-    
+  }    
 }
