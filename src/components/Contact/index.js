@@ -23,7 +23,7 @@ function Contact() {
         className="form" 
         data-netlify="true"
         onSubmit={handleFormSubmit}
-         >
+        netlify >
           <input type="hidden" name="form-name" value="contact" />
           <label htmlFor="name" className='formLabel'>Nom </label>
           <input type="text" className='formInput' name="name"/>
