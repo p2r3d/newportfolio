@@ -2,12 +2,6 @@ import React from 'react';
 import './contact.scss'
 
 function Contact() {
-  
-  function handleFormSubmit(event) {
-    event.preventDefault();
-    console.log('Le formulaire a été soumis !');
-    // Autres actions que vous souhaitez effectuer lors de la soumission du formulaire
-  }
   return (
     <section id="contact" className='contactSection'>
       <h2>Contact</h2>
@@ -22,7 +16,7 @@ function Contact() {
         method="post" 
         className="form" 
         data-netlify="true"
-        onSubmit={handleFormSubmit}
+        onSubmit="submit"
         netlify >
           <input type="hidden" name="form-name" value="contact" />
           <label htmlFor="name" className='formLabel'>Nom </label>

@@ -1,0 +1,9 @@
+@import "../../style/variables";
+
+.line {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  color: $font-color;
+  margin: 5px;
+}
