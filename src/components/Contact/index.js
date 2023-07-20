@@ -1,19 +1,7 @@
-import React,{useState} from 'react';
+import React from 'react';
 import './contact.scss'
 
 function Contact() {
-    const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Réinitialisation des champs du formulaire après envoi
-    setName('');
-    setEmail('');
-    setMessage('');
-  };
-
   return (
     <section id="contact" className='contactSection'>
       <h2>Contact</h2>
@@ -22,7 +10,24 @@ function Contact() {
         <p><em>Pour démarrer un projet ensemble, ou pour tout renseignement,</em></p> 
         <p><em>n'hésitez pas à me contacter via ce formulaire !</em></p>
       </div>
-      <form onSubmit={handleSubmit} className='form' action='mailto:p2r3d@laposte.net' method="POST" encType="text/plain">
+      <div className='contact'>
+        <form 
+        name="contact" 
+        method="post" 
+        className="form" 
+        data-netlify="true"
+        onSubmit="submit">
+          <input type="hidden" name="form-name" value="contact" />
+          <label for="name" className='formLabel'>Nom </label>
+          <input type="text" className='formInput' name="name"/>
+          <label for="email" className='formLabel'>email</label>
+          <input type="email" className='formInput' name="email"/>
+          <label for="message" className='formLabel'>Message </label>
+          <textarea name="message" className='formTextarea'></textarea>
+          <button type="submit" className='formBtn'>Envoyer</button>
+        </form>
+      </div>
+      {/*<form onSubmit={handleSubmit} className='form' action='mailto:p2r3d@laposte.net' method="POST" encType="text/plain">
         <label className='formLabel'>Nom</label>
         <input
           className='formInput'
@@ -48,7 +53,7 @@ function Contact() {
           required>
         </textarea>
         <button type="submit" className='formBtn'>Envoyer</button>
-      </form>
+      </form>*/}
     </section>
   )
 }

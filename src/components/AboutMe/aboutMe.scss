@@ -1,35 +1,53 @@
 @import '../../style/variables';
 
 .aboutMe {
-  display:flex;
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: $portfolio-background-color-grey;  
-  line-height: 1.7rem;      
-  padding: 0 50px;  
+  background-color: $portfolio-background-color-grey;
+  line-height: 1.7rem;
+  padding: 0 50px;
   cursor: pointer;
   .textDiv {
-    filter:grayscale(40);
+    filter: grayscale(40);
     .visible {
       margin: 0;
-      overflow: hidden; 
+      overflow: hidden;
+      font-size: $font-size;
     }
     .invisible {
       margin-top: 10px;
       display: none;
-    }  
+    }
   }
   .openTextBtn {
-    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
     background-color: transparent;
-    color: $font-color;
-    border: none;
+    border:0;
+    margin-bottom: 7px;
+    cursor: pointer;
+    .fa-solid{
+      color: $font-color;
+    }
+    &:hover {
+      color:$portfolio-color;    
+      align-items:self-start;    
+      border:0;
+      .fa-solid{
+        color:rgba($portfolio-color, 0.6);
+      }
+    }
   }
 }
+
 /************* Tablette *******************/
-.aboutMe {
-  line-height: 1.6rem;      
-  padding: 0 30px;  
+@media screen and (min-width:770px) and (max-width: 1023px){
+  .aboutMe {
+    line-height: 1.6rem;      
+    padding: 0 30px;  
+  }
 }
 /************* Mobile *******************/
 @media screen and (max-width: 769px){

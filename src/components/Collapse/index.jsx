@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import "./collapse.scss"
 
-function Collapse({title,description }) {
+function Collapse({title,description,image }) {
   const [isOpened, setIsOpened] = useState(false);
 
   const toggleCollapse = () => {
@@ -9,15 +9,19 @@ function Collapse({title,description }) {
   };
 
   return (
-    <div className="collapseDiv">
-      <h3 onClick={toggleCollapse}>{title}</h3>
+    <div className="collapseDiv" onClick={toggleCollapse}>
+      <i className={image}></i>
+      <h3>{title}</h3>
       {isOpened && (
-        <ul>
+        <div className="descriptionDiv">
           {description.map((desc, index) => (
-            <li key={index}>{desc}</li>
+            <p key={index} className="detailsContainer">
+              <span className="titleDesc">{desc.split(":")[0]}</span> 
+              <span className="contentDesc">{desc.split(":")[1]}</span>
+            </p>
           ))}
-        </ul>
-      )}
+        </div>
+       )}
     </div>
   );
 };
