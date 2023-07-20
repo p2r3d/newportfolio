@@ -16,7 +16,8 @@ function Contact() {
         method="post" 
         className="form" 
         data-netlify="true"
-        onSubmit="submit">
+        onSubmit="submit"
+        netlify>
           <input type="hidden" name="form-name" value="contact" />
           <label for="name" className='formLabel'>Nom </label>
           <input type="text" className='formInput' name="name"/>
