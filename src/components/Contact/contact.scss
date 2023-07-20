@@ -48,8 +48,41 @@
       font-family:$font-family;
       font-size:$font-size;
       color: $font-btn-color;
-      border: none;
+      border-radius: 10px;
+      border: 1px solid $font-color;
       cursor: pointer;
+      &:hover {
+        background-color: $font-btn-color;
+        color: $portfolio-color;
+      }
     }
   }    
+}
+/************* Tablette *******************/
+@media screen and (min-width:770px) and (max-width: 1023px){
+@media screen and (max-width: 769px) {
+.contactSection {
+  .form { 
+    .formInput {
+      width: 50%;
+    }
+    .formTextarea {
+      width: 50%;
+    }
+  }    
+}
+}
+}
+/************* Mobile *******************/
+@media screen and (max-width: 769px) {
+.contactSection {
+  .form { 
+    .formInput {
+      width: 60%;
+    }
+    .formTextarea {
+      width: 60%;
+    }
+  }    
+}
 }
