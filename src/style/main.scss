@@ -10,14 +10,15 @@ body {
   font-family: $font-family;
   font-weight: $font-weight;
   color : $font-color;
+  section {    
+    background: $portfolio-background-color-grey;
+  }
+  h2 {
+    padding : 20px 0 0 20px;
+    text-align: center;
+  }
 }
-section {    
-  background: $portfolio-background-color-grey;
-}
-h2 {
-  padding : 20px 0 0 20px;
-  text-align: center;
-}
+
 /************* Tablette *******************/
 @media screen and (min-width:770px) and (max-width: 1023px){
   body {
@@ -28,7 +29,10 @@ h2 {
 /************* Mobile *******************/
 @media (max-width: 769px){
    body {
-    padding :20px;
     font-size : $font-size-mobil;
+    h2 {
+      padding : 20px 0 0 20px;
+      text-align: left;
+    }
   }
 }

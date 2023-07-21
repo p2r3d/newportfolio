@@ -14,14 +14,12 @@ function AboutMe() {
       <h2>À propos</h2>
       <div className='textDiv'>
         {showAdditionalText && 
-        <div className='textDiv'>
           <div className="visible">
             {aboutMeData.aboutMe[0].desc.map((description, index) => (
                 <p key={index}>
                 {description.split("")}
                 </p>
               ))}
-          </div>
         </div>}
         <p className="visible"><em>{aboutMeData.aboutMe[0].accr}</em></p>
       </div>    

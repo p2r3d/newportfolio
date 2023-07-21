@@ -18,7 +18,7 @@ function Modale({ project, onCloseModal }) {
       <div className="modalContent">
         <button onClick={handleCloseClick} className="modalCloseBtn" >X</button>
         <h2 className="modalTitle">{project.title}</h2>
-        <p className="modalDescription">{project.description}</p>
+        <div className="modalDescription">{project.description}</div>
         <Slideshow selHousing={project} />
         <div className="cardTechnologies">
           {technologies.map((technology) => (

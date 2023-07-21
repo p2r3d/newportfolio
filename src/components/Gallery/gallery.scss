@@ -25,6 +25,7 @@
 /************* Mobile *******************/
 @media screen and (max-width: 769px){
 .galleryDiv {  
+  padding:0;
     .cardsDiv {
       grid-template-columns: repeat(1, 1fr);
     }

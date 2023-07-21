@@ -5,8 +5,9 @@
   @include flex-center-between;
   flex-wrap: wrap;
   background-color: $portfolio-background-color;
+  padding-top: 20px;
   .logoDiv {
-    padding-left: 50px;
+    padding-left: 30px;
     align-items: center;
     i {
       font-size: 40px;
@@ -23,7 +24,6 @@
       @include flex-center-center;
       color: $font-color;
       text-decoration-line: none;
-      transition: all 0.3s ease-in-out;
       position: relative;
       padding:10px;
       &::before {
@@ -34,7 +34,7 @@
         width: 0;
         height: 2px;
         background-color: $font-color;
-        transition: width 0.3s ease-in-out;
+        transition: width 0.3s ease-out;
       }
       &:hover {
         background-color:  $portfolio-background-color-grey; 
@@ -43,6 +43,9 @@
         }
       }
     }
+  }
+  .hamburgerDiv {
+    display:none;
   }
 }
 /************* Tablette *******************/
@@ -63,20 +66,44 @@
 }
 /************* Mobile *******************/
 @media screen and (max-width: 769px) {
-.navDiv {
-  .logoDiv {
-    padding-left: 1px;
-    i {
-      font-size: 30px;
-    }
-  }
-  .navbar {
-    padding: 10px 0;
-    gap: 0.5rem;
-    font-size: 1.1rem;
-    .navLink {
+  .navDiv {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    .navbar {
+      display:none
+    }    
+    .open {
+      display: flex;
+      flex-direction: column;
+      gap:0;
+      .navLink {
+      @include flex-center-center;
+      color: $font-color;
+
+      transition: all 0.3s ease-in-out;
+      position: relative;
       padding:10px;
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        width: 0;
+        height: 2px;
+        background-color: $font-color;
+        transition: left 0.3s ease-in-out;
       }
+      &:hover {
+        background-color:  $portfolio-background-color-grey; 
+        &::before {
+          width: 100%; 
+        }
+      }
+    }
+      }
+    .hamburgerDiv {
+      display : inline;
     }
   }
 }
