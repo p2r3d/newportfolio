@@ -60,15 +60,16 @@
   border:0;
   display:flex;
   flex-direction: row;
-  padding-left: 50px;;
-  gap:30px;
+  align-items: center;
+  gap:20px;
+  padding-left: 5px;
   h3{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin:10px;
   }
   i {
     padding-top: 10px;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .descriptionDiv {
     .detailsContainer {
@@ -82,7 +83,7 @@
         font-style: italic;
       }
       .contentDesc {
-        font-size:$font-size;
+        font-size:$font-size-mobil;
         margin:0;
         text-align: center ;
       }
