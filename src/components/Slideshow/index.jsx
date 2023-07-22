@@ -33,6 +33,7 @@ const Slideshow = ({selHousing}) => {
           className="slideshowImg"
           src={require(`../../assets/projectImages/${selHousing.pictures[index]}`)}
           alt={selHousing.title}
+
         />
         {/* affichage compteur */}
         <div className={selHousing.pictures.length === 1 ? "noSlideshowCounter" :"slideshowCounter"}>
