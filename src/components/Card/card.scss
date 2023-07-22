@@ -57,7 +57,7 @@
 @media screen and (max-width: 769px){
  .card {
   justify-content: center;
-  background-color: #fff;
+  background-color: $portfolio-background-color;
   border:0;
   .cardImg {
     object-fit:cover;  

@@ -36,9 +36,11 @@ function Gallery() {
           onOpenModal={() => handleCardClick(project)}
         />
       ))}
+      <div className='modalDiv'>
       {modalOpen && (
         <Modale project={selectedProject} onCloseModal={handleCloseModal} />
       )}
+      </div>
     </div>
   </section>
   );

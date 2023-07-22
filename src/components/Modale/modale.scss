@@ -14,7 +14,7 @@
     @include flex-col-center;
     justify-content: center;    
     gap:20px;
-    max-width: 800px;
+    max-width: 1000px;
     padding: 20px;
     background-color:$portfolio-background-color;
     position: relative;
@@ -49,43 +49,76 @@
       flex-wrap: wrap;
       gap: 20px;
       filter: grayscale(80%);
-      transition: opacity 2s ease, max-height 2s ease;    
-      .cardTechnology {
-        width: 50px;
-        height:50px;
-        object-fit:contain;
+        p {
+          font-size: 14px;
+        }
+        .cardTechnology {
+          width: 50px;
+          height:50px;
+          object-fit:contain;
+        }       
       }
     }  
+    .linksDiv {
+      display: flex;
+      gap:15px;
+      .cardCode {
+        border:3px solid $font-color;
+        width: 50px;
+        height:50px;
+        object-fit:cover;
+        object-position: 15%;
+        border-radius: 50%;
+    }
+    .cardGHCode {
+        border:3px solid $font-color;
+        width: 50px;
+        height:50px;
+        object-fit:cover;
+        border-radius: 50%;
+    }
   }
 }
 /************* Tablette *******************/
 @media screen and (min-width: 770px) and (max-width: 1023px) {
-  .modal {
+    .modal {
     .modalContent {
-      padding:20px 0;
+      padding:20px 0;max-width: 1020px;
       .modalCloseBtn {
-        width:20 px;
-        height: 35px;
-        font-size: 19px;
+        width:15 px;
+        height: 30px;
+        font-size: 16px;
       }
       .modalTitle {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       font-weight: bold;
-      margin-bottom: 10px;
       }
       .modalDescription {
         font-size: 1.2rem;
       }
       .cardTechnologies {
-      gap: 10px;
+        gap: 5px;
         .cardTechnology {
-          width: 50px;
-          height: 50px;
+          width: 40px;
+          height: 40px;
+        }
+      }
+      .linksDiv {
+      display: flex;
+      gap:10px;
+      .cardCode {
+        width: 35px;
+        height:35px;
+        }
+        .cardGHCode {
+            width: 35px;
+            height:35px;
         }
       }
     }
   }
 }
+ 
 /************* Mobile *******************/
 @media screen and (max-width: 769px) {
   .modal {
@@ -110,6 +143,18 @@
         .cardTechnology {
           width: 40px;
           height: 40px;
+        }
+      }
+      .linksDiv {
+      display: flex;
+      gap:10px;
+      .cardCode {
+        width: 35px;
+        height:35px;
+        }
+        .cardGHCode {
+            width: 35px;
+            height:35px;
         }
       }
     }

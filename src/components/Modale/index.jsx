@@ -21,6 +21,7 @@ function Modale({ project, onCloseModal }) {
         <div className="modalDescription">{project.description}</div>
         <Slideshow selHousing={project} />
         <div className="cardTechnologies">
+          <p>Technologies :</p>
           {technologies.map((technology) => (
             <div key={technology.id}>
               <img
@@ -32,26 +33,28 @@ function Modale({ project, onCloseModal }) {
               title={technology.title}/>
             </div>
           ))}
-          </div>
-          <div className="linksDiv">
+        </div>
+        <div className="linksDiv">
             {project.code && (
             <a href={project.code} target="_blank" rel="noopener noreferrer">
               <img 
-              className="cardTechnology"
+              className="cardGHCode"
               src={require("../../assets/technoImages/github.webp")} 
-              alt="Lien GitHub" 
+              alt={`Lien vers le code Github de ${project.title}`} 
               width="50" height="50" 
-              title="Vers le code source"/>
+              title={`Lien vers le code Github de ${project.title}`}
+              />
             </a>
             )}
             {project.site && (
             <a href={project.site} target="_blank" rel="noopener noreferrer">
               <img 
-              className="cardTechnology"
-              src={require("../../assets/projectImages/booki_ico.PNG")} 
-              alt="Lien vers le site web" 
+              className="cardCode"
+              src={require(`../../assets/projectImages/${project.picture}`)} 
+              alt={`Lien vers le site web de ${project.title}`} 
               width="70" height="30" 
-              title="Vers le site web"/>
+              title={`Lien vers le site web de ${project.title}`}
+              />
             </a>
             )}
           </div>

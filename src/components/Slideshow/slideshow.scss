@@ -17,7 +17,7 @@
   }
   .PArrow {
     position: absolute;
-    top: 48%;
+    top: 44%;
     left: 1%;
     height: 40px;
   }
@@ -33,16 +33,18 @@
   }
   .NArrow {
     position: absolute;
-    top: 48%;
+    top: 44%;
     right: 1%;
     height: 40px;
     transform:rotate(180deg);
   }
   .slideshowCounter {
     position: absolute;
-    bottom :5%;
+    bottom :1%;
     right: 50%;
     color:$font-color;
+    font-size:14px;
+    filter: grayscale(100%);
   }
 }
 /************* Tablette *******************/
@@ -58,7 +60,7 @@
   }
   .NArrow {
     position: absolute;
-    top: 48%;
+    top: 44%;
     right: 1%;
     height: 30px;
     transform:rotate(180deg);
