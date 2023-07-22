@@ -60,7 +60,6 @@
 }
 /************* Tablette *******************/
 @media screen and (min-width:770px) and (max-width: 1023px){
-@media screen and (max-width: 769px) {
 .contactSection {
   .form { 
     .formInput {
@@ -72,17 +71,42 @@
   }    
 }
 }
-}
+
 /************* Mobile *******************/
 @media screen and (max-width: 769px) {
 .contactSection {
+  p {
+    width:94%;
+    text-align: center;
+    margin:0;
+  }
+  .fa-sharp {
+    font-size:2rem;
+  }
   .form { 
+    .formLabel {
+      font-size: 14px;
+      text-align: left;
+      width:80%;
+    }
     .formInput {
-      width: 60%;
+      width: 80%;
     }
     .formTextarea {
-      width: 60%;
+      width: 80%;
+      height:110px;
     }
+    .formBtn {
+      padding: 10px;
+      background-color: $portfolio-color;
+      font-family:$font-family;
+      font-size:14px;
+      color: $font-btn-color;
+      border-radius: 0px;
+      border: 1px solid $font-color;
+      cursor: pointer;
+      width:20%;
   }    
+}
 }
 }

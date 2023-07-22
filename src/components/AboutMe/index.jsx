@@ -25,8 +25,11 @@ function AboutMe() {
       </div>    
       <button className="openTextBtn">          
         <span className="plusDiv">
-          <i className="fa-solid fa-circle-plus" title="Plus d'infos">
-          </i>
+          {!showAdditionalText ? (
+          <i className="fa-solid fa-circle-plus" title="Plus d'infos"></i>
+          ):(
+          <i className="fa-solid fa-angle-up" title="Fermer"></i>
+          )}
         </span>
       </button>
     </section>

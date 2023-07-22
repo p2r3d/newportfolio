@@ -5,7 +5,7 @@
   @include flex-center-between;
   flex-wrap: wrap;
   background-color: $portfolio-background-color;
-  padding-top: 20px;
+  padding: 20px;
   .logoDiv {
     padding-left: 30px;
     align-items: center;
@@ -69,7 +69,15 @@
   .navDiv {
     display:flex;
     justify-content: space-between;
-    padding:0;
+    align-items: flex-start;
+    padding:10px 0;
+    .logoDiv {
+      width:50%;
+      padding-left: 10px;
+      i {
+        font-size: 25px;
+      }
+    }
     .navbar {
       display:none
     }    
@@ -79,30 +87,30 @@
       gap:0;
       padding:0;
       .navLink {
-      @include flex-center-center;
-      color: $font-color;
-
-      transition: all 0.3s ease-in-out;
-      position: relative;
-      padding:10px;
-      &::before {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0px;
-        width: 0;
-        height: 2px;
-        background-color: $font-color;
-        transition: left 0.3s ease-in-out;
-      }
-      &:hover {
-        background-color:  $portfolio-background-color-grey; 
+        @include flex-center-center;
+        color: $font-color;
+        font-size:15px;
+        transition: all 0.3s ease-in-out;
+        position: relative;
+        padding:2px;
         &::before {
-          width: 100%; 
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0px;
+          width: 0;
+          height: 2px;
+          background-color: $font-color;
+          transition: left 0.3s ease-in-out;
+        }
+        &:hover {
+          background-color:  $portfolio-background-color-grey; 
+          &::before {
+            width: 100%; 
+          }
         }
       }
     }
-      }
     .hamburgerDiv {
       display : inline;
     }

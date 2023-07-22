@@ -28,11 +28,12 @@
 
 /************* Mobile *******************/
 @media screen and (max-width: 769px){
-.skillsSection {
+  .skillsSection {
     .skillsGrid {
-    grid-template-columns: repeat(1, 1fr);
-    gap:0;
-    font-size: $font-size-mobil;
+      display: flex;
+      flex-direction: column;
+      gap:0;
+      font-size: $font-size-mobil;
     }
   }
 }

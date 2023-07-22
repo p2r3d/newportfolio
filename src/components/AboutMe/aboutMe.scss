@@ -17,7 +17,7 @@
       font-size: $font-size;   
     }
   }
- /* p {
+  /*p {
     animation-duration: 0.5s;
     animation-name: slidein;
   }*/
@@ -25,21 +25,20 @@
   .openTextBtn {
     display: flex;
     justify-content: center;
-    font-size: 1rem;
     background-color: transparent;
     border:0;
     margin-bottom: 10px;
     cursor: pointer;
     .fa-solid{
-      color: $font-color;
-    }
-    &:hover {
-      color:$portfolio-color;    
-      align-items:self-start;    
-      border:0;
-      .fa-solid{
-        color:rgba($portfolio-color, 0.6);
-      }
+      color:rgba($portfolio-color, 0.7);
+      font-size: 1.6rem;
+    } 
+  }
+  &:hover {
+    border:0;
+    .fa-solid{
+      color:$portfolio-color;  
+      text-align: center;  
     }
   }
 }
@@ -48,7 +47,6 @@
 @media screen and (min-width:770px) and (max-width: 1023px){
   .aboutMe {
     line-height: 1.6rem;      
-    padding: 0 30px;  
   }
 }
 /************* Mobile *******************/
