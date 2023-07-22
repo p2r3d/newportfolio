@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.726523b5.css",
-    "main.js": "/static/js/main.f1de00a2.js",
+    "main.css": "/static/css/main.a6bc5a5a.css",
+    "main.js": "/static/js/main.f6fedaed.js",
     "static/media/kasa_accueil.webp": "/static/media/kasa_accueil.79367ec5fa6b8005f8af.webp",
-    "static/media/MM_mission.webp": "/static/media/MM_mission.598d5b0f3331f2722f60.webp",
-    "static/media/kasa_mission.webp": "/static/media/kasa_mission.5b7297acf4e7b45d4228.webp",
-    "static/media/booki_mission.webp": "/static/media/booki_mission.5b393696f3be444e39b5.webp",
-    "static/media/NC_mission.webp": "/static/media/NC_mission.aa99b254cfbd74033fa6.webp",
-    "static/media/VG_mission.webp": "/static/media/VG_mission.8aff6945331e284731f1.webp",
+    "static/media/NC_mission.webp": "/static/media/NC_mission.88c095dc4d03f508d9c6.webp",
+    "static/media/VG_mission.webp": "/static/media/VG_mission.9c29d006048f43af976f.webp",
+    "static/media/MM_mission.webp": "/static/media/MM_mission.1d146f86ee1638d28b77.webp",
+    "static/media/SB_mission.webp": "/static/media/SB_mission.410eecd65b64b54a76c9.webp",
+    "static/media/booki_mission.webp": "/static/media/booki_mission.0dd74efa4b23c99418e0.webp",
+    "static/media/kasa_mission.webp": "/static/media/kasa_mission.98679b7e63a44cb202cb.webp",
     "static/media/booki_01.webp": "/static/media/booki_01.4c6b12362e5b88de6b4d.webp",
-    "static/media/SB_mission.webp": "/static/media/SB_mission.c7ebfcd74a27b59aad1a.webp",
     "static/media/MM_communication.webp": "/static/media/MM_communication.790b48ef6fd5b9f8b3b7.webp",
     "static/media/NC_reseaux.webp": "/static/media/NC_reseaux.a59bff615c9fe424addf.webp",
     "static/media/kasa_cap.webp": "/static/media/kasa_cap.adbaa9e01e5dda055329.webp",
@@ -60,12 +60,18 @@
     "static/media/trello.webp": "/static/media/trello.07cb05ea8252253323e7.webp",
     "static/media/jwt.webp": "/static/media/jwt.7ed68a71ed3b5fabca7b.webp",
     "static/media/figma.webp": "/static/media/figma.961f8e08d24b1a29d117.webp",
+    "static/media/MM_mission.webp:Zone.Identifier": "/static/media/MM_mission.webp:Zone.e0835b74bd0061cc646d.Identifier",
+    "static/media/NC_mission.webp:Zone.Identifier": "/static/media/NC_mission.webp:Zone.e0835b74bd0061cc646d.Identifier",
+    "static/media/SB_mission.webp:Zone.Identifier": "/static/media/SB_mission.webp:Zone.e0835b74bd0061cc646d.Identifier",
+    "static/media/VG_mission.webp:Zone.Identifier": "/static/media/VG_mission.webp:Zone.e0835b74bd0061cc646d.Identifier",
+    "static/media/booki_mission.webp:Zone.Identifier": "/static/media/booki_mission.webp:Zone.e0835b74bd0061cc646d.Identifier",
     "static/media/html5.webp:Zone.Identifier": "/static/media/html5.webp:Zone.e0835b74bd0061cc646d.Identifier",
-    "main.726523b5.css.map": "/static/css/main.726523b5.css.map",
-    "main.f1de00a2.js.map": "/static/js/main.f1de00a2.js.map"
+    "static/media/kasa_mission.webp:Zone.Identifier": "/static/media/kasa_mission.webp:Zone.e0835b74bd0061cc646d.Identifier",
+    "main.a6bc5a5a.css.map": "/static/css/main.a6bc5a5a.css.map",
+    "main.f6fedaed.js.map": "/static/js/main.f6fedaed.js.map"
   },
   "entrypoints": [
-    "static/css/main.726523b5.css",
-    "static/js/main.f1de00a2.js"
+    "static/css/main.a6bc5a5a.css",
+    "static/js/main.f6fedaed.js"
   ]
 }
