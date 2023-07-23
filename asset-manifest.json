@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab2bee18.css",
-    "main.js": "/static/js/main.717c705b.js",
+    "main.css": "/static/css/main.b9be87ec.css",
+    "main.js": "/static/js/main.42035ab9.js",
     "static/media/NC_mission.webp": "/static/media/NC_mission.1685de0e24f5c8ee61a6.webp",
-    "static/media/kasa_mission.webp": "/static/media/kasa_mission.78fb7cb539522eeeed37.webp",
     "static/media/MM_mission.webp": "/static/media/MM_mission.fdc2d27c4de269f8cbb4.webp",
     "static/media/kasa_accueil.webp": "/static/media/kasa_accueil.79367ec5fa6b8005f8af.webp",
+    "static/media/kasa_mission.webp": "/static/media/kasa_mission.2826be6f568a353481fb.webp",
     "static/media/VG_mission.webp": "/static/media/VG_mission.1a5e23b95f1fbfb0288b.webp",
     "static/media/booki_mission.webp": "/static/media/booki_mission.49b07280b7e15982c16c.webp",
     "static/media/SB_mission.webp": "/static/media/SB_mission.eb8e6c879eaf6fb7a1c3.webp",
@@ -63,11 +63,12 @@
     "static/media/NC_mission.webp:Zone.Identifier": "/static/media/NC_mission.webp:Zone.e0835b74bd0061cc646d.Identifier",
     "static/media/VG_mission.webp:Zone.Identifier": "/static/media/VG_mission.webp:Zone.e0835b74bd0061cc646d.Identifier",
     "static/media/html5.webp:Zone.Identifier": "/static/media/html5.webp:Zone.e0835b74bd0061cc646d.Identifier",
-    "main.ab2bee18.css.map": "/static/css/main.ab2bee18.css.map",
-    "main.717c705b.js.map": "/static/js/main.717c705b.js.map"
+    "static/media/kasa_mission.webp:Zone.Identifier": "/static/media/kasa_mission.webp:Zone.e0835b74bd0061cc646d.Identifier",
+    "main.b9be87ec.css.map": "/static/css/main.b9be87ec.css.map",
+    "main.42035ab9.js.map": "/static/js/main.42035ab9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab2bee18.css",
-    "static/js/main.717c705b.js"
+    "static/css/main.b9be87ec.css",
+    "static/js/main.42035ab9.js"
   ]
 }
