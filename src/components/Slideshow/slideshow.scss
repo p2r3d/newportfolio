@@ -1,7 +1,8 @@
 @import '../../style/variables';
 .slideshowSection {
   width:100%;
-  margin:0;
+  margin:0;    position : relative;  
+
   background-color:  $portfolio-background-color;
   .picturesDiv {
     display: flex;
@@ -12,7 +13,6 @@
     overflow: hidden;
     width: 100%;
     border: 1px solid $font-color;
-    transition: opacity 0.5s ease-in-out; 
   }
   .PArrow {
     position: absolute;
@@ -45,6 +45,25 @@
     font-size:14px;
     filter: grayscale(100%);
   }
+  .closeBtn {
+    position: absolute;
+    width:40px;
+    height:40px;
+    top: 15px;
+    right: 15px;
+    border-radius: 50%;
+    padding: 0 12px;
+    color: $font-btn-color;
+    background-color: $font-color;
+    font-size: $font-size;
+    border: 0;
+    cursor: pointer;
+    &:hover {
+      background-color:red;    
+      filter: grayscale(60%);
+    }
+  }
+  
 }
 /************* Tablette *******************/
 @media screen and (min-width:770px) and (max-width: 1023px){

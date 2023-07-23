@@ -6,9 +6,27 @@
            "picture": "booki.webp",
            "description": "Création de la page d'accueil d'une agence de voyage",
            "technos": [1,2,8],
-           "pictures":["booki_mission.webp","booki_0.webp","booki_1.webp"],
+           "pictures":["booki_1.webp"],
            "code" : "https://github.com/p2r3d/P2_Booki",
-           "site" : "https://p2r3d.github.io/P2_Booki/"
+           "site" : "https://p2r3d.github.io/P2_Booki/",
+           "projectDetails" : {
+              "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web ».",
+              "mission" : "L’entreprise Booki souhaite développer un site Internet qui permettra aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Mon objectif est d’intégrer l’interface de ce site en HTML et CSS",
+              "problematiques":{
+                "p1":"Proposer un affichage correct sur différents appareils et tailles d'écran de manière fluide"
+              },
+              "solutions" : {
+                "s1":"Utilisation des médias queries pour définir des styles CSS spécifiques selon la taille de l'écran",
+                "s2":"Utilisation d’unités de tailles flexibles (relatives) : %, ou rem",
+                "s3":"Tests sur différents appareils en utilisant des outils de simulation d'écran"
+              },
+              "competences" : {
+                "c1":"Implémenter une interface responsive avec HTML et CSS",
+                "c2":"Versionner son projet avec Git et Github",
+                "c3":"Intégrer du contenu conformément à une maquette avec HTML et CSS",
+                "c4":"Installer un environnement de développement front-end"
+              }
+            }
          },
          {
            "id": 2,
@@ -16,10 +34,26 @@
            "picture": "SB_0.webp",
            "description": "Création d'une page web dynamique avec JavaScript",           
            "technos": [1,2,3,8],
-           "pictures":["SB_mission.webp","SB_0.webp","SB_1.webp","SB_2.webp"],
+           "pictures":["SB_0.webp","SB_1.webp","SB_2.webp"],
            "code" : "https://github.com/p2r3d/https://github.com/p2r3d/P3_SophieBluel",
-           "site" : ""
-
+           "site" : "",
+           "projectDetails" : {
+              "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web ».",
+              "mission" : "Développer en JavaScript la page web dynamique d’une architecte mettant en valeur ses travaux avec des options de filtrage par catégorie, ainsi que des fonctionnalités d'ajout et de suppression de travaux",
+              "problematiques":{
+                "p1":"Modification du contenu, de la structure et du style des éléments",
+                "p2":"Ajout d’interactions utilisateur sur le site en utilisant JavaScript"
+              },
+              "solutions" : {
+                "s1":"Utilisation de sélecteurs JavaScript tels que getElementById, querySelector, et querySelectorAll pour cibler précisément les éléments du DOM",
+                "s2":"Utilisation d’écouteurs d'événements à des éléments du DOM pour gérer les interactions"
+              },
+              "competences" : {
+                "c1":"Manipuler les éléments du DOM avec JavaScript",
+                "c2":"Récupérer les données utilisateurs dans le JavaScript via des formulaires",
+                "c3":"Gérer les événements utilisateurs avec JavaScript"
+              }
+            }
          },
          {
            "id": 3,
@@ -27,9 +61,28 @@
             "picture": "MenuMaker.webp",
            "description": "Planification du développement d'un site de fabrication de menus de restaurants",
            "technos": [1,2,3,8,12],
-           "pictures":["MM_mission.webp","MM_recap.webp","MM_processus.webp","MM_communication.webp","MM_espace.webp","MM_communication.webp"],
+           "pictures":["MM_recap.webp","MM_processus.webp","MM_communication.webp","MM_espace.webp","MM_communication.webp"],
            "code" : "",
-           "site" : ""
+           "site" : "",
+           "projectDetails" : {
+              "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web ».",
+              "mission" : "Mettre en place une méthodologie de travail agile afin de mener, préparer et planifier le projet de développement d’un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus en quelques clics",
+              "problematiques":{
+                "p1":"Mise en place d’une méthodologie de travail ",
+                "p2":"Planification d'un projet"
+              },
+              "solutions" : {
+                "s1":"Se familiariser avec les principes de base des méthodes agiles avec des cours, des tutos, des informations auprès de professionnels",
+                "s2":"Utiliser des outils de gestion de projet comme le tableau Kanban avec Trello pour suivre les tâches et les avancements du projet de manière itérative et collaborative"
+              },
+              "competences" : {
+                "c1":"Suivre le déroulement du projet grâce à un outil de gestion de projet",
+                "c2":"Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
+                "c3":"Découper une fonctionnalité en tâches pour préparer le développement",
+                "c4":"Présenter la solution technique",
+                "c5":"Mettre en place une méthode de veille technologique"
+              }
+            }         
          },
          {
            "id": 4,
@@ -37,9 +90,33 @@
            "picture": "NinaC.webp",
            "description": "Débug et optimisation d'un site d'une photographe",           
            "technos": [8,9,11,12,14,15],
-           "pictures":["NC_mission.webp","NC_recap.webp","NC_referencement.webp","NC_seo.webp","NC_reseaux.webp","NC_scores.webp","NC_accessibilite.webp","NC_portfolio.webp"],
+           "pictures":["NC_recap.webp","NC_referencement.webp","NC_seo.webp","NC_reseaux.webp","NC_scores.webp","NC_accessibilite.webp","NC_portfolio.webp"],
            "code" : "https://github.com/p2r3d/nina-carducci.github.io",
-           "site" : "https://p2r3d.github.io/nina-carducci.github.io/"
+           "site" : "https://p2r3d.github.io/nina-carducci.github.io/",
+           "projectDetails" : {
+              "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web ».",
+              "mission" : "Optimiser et rendre accessible le site de la photographe Nina Carducci, tant sur les performances que sur le SEO, avec la mise en place d’un référencement local et l’ajout de metas pour les réseaux sociaux.",
+              "problematiques":{
+                "p1":"Optimiser des images et des fichiers pour des temps de chargement rapides",
+                "p2":"Améliorer le référencement sur les moteurs de recherche, les réseaux sociaux ",
+                "p3":"Vérifier l’accessibilité du site"
+              },
+              "solutions" : {
+                "s1":"Utilisation de Lighhouse pour avoir des audits automatisés ",
+                "s2":"Utilisation de Squoosh pour l’optimisation d'images (redimension et format webp)",
+                "s3":"Utilisation de l’outil Coverage de Chrome pour supprimer le code non utilisé",
+                "s4":"Minification des fichiers, preload de polices, chargement des scripts en fin de fichier html",
+                "s5":"Amélioration du SEO avec les bonnes pratiques du codage HTML (validateurs W3C)",
+                "s6":"Balises méta pour les réseaux sociaux pour contrôler l'apparence du contenu partagé",
+                "s7":"Données structurées avec Schema.org pour le référencement local et les Rich Snippets ",
+                "s8":"Travail sur l’accessibilité avec Wave",
+                "s9":"Aide de la communauté "
+              },
+              "competences" : {
+                "c1":"Optimiser les performances d’un site web",
+                "c2":"Débugger un site web grâce aux Chrome DevTools"
+              }
+            }         
          },
          {
            "id": 5,
@@ -47,19 +124,58 @@
            "picture": "kasa.webp",
            "description": "Création d'une application web de location immobilière avec React",
            "technos": [4,5,7,8,10],
-           "pictures":["kasa_mission.webp","kasa_cap.webp","kasa_cap1.webp","kasa_cap2.webp"],
+           "pictures":["kasa_cap.webp","kasa_cap1.webp","kasa_cap2.webp"],
            "code" : "https://github.com/p2r3d/p6_kasa",
-           "site" : ""
-         },
-         {
+           "site" : "",
+           "projectDetails" : {
+              "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web ».",
+              "mission" : "Développer le code front-end d’un site de location d’hébergements avec React",
+              "problematiques":{
+                "p1":"Configuration de la navigation",
+                "p2":"Conception et communication de composants réutilisables",
+                "p3":"Utilisation de Sass"
+              },
+              "solutions" : {
+                "s1":"Planification de la structure de l’interface avec des petits composants bien définis,utilisation des propriétés (props) pour passer des données d’un composant à l‘autre, gestion réactive des mises à jour des composants avec les états avec useState",
+                "s2":"Utilisation de React Router pour définir les routes en utilisant le composant <BrowserRouter>",
+                "s3":"Tests d’utilisation de Sass et utilisation de node-sass pour la compilation"
+              },
+              "competences" : {
+                "c1":"Configurer la navigation entre les pages de l'application avec React Router",
+                "c2":"Développer une interface web avec Sass",
+                "c3":"Initialiser une application avec Create React App",
+                "c4":"Développer des éléments de l'interface avec des composants React",
+                "c5":"Mettre en œuvre des animations CSS"
+              }
+            }         
+          },
+          {
            "id": 6,
            "title": "Vieux Grimoire",
            "picture": "VieuxGrimoire.webp",
            "description": "Développement du backend pour un site de notation de livres.",
            "technos": [5,6,7,14,16],
-           "pictures":["VG_mission.webp","VG_0.webp","VG_1.webp","VG_2.webp","VG_3.webp"],
+           "pictures":["VG_0.webp","VG_1.webp","VG_2.webp","VG_3.webp"],
            "code" : "https://github.com/p2r3d/p7_vieuxGrimoire",
-           "site" : ""
+           "site" : "",
+           "projectDetails" : {
+              "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web ».",
+              "mission" : "Développer le backend d’un site Internet de référencement et de notation de livres, de manière sécurisée et en tenant compte des bonnes pratiques du Green Code.",
+              "problematiques":{
+                "p1":"Structuration du code",
+                "p2":"Sécurité de la base de données ",
+                "p3":"Optimisation des images des livres "
+              },
+              "solutions" : {
+                "s1":"Mise en place d’une structure modulaire pour séparer les responsabilités ",
+                "s2":"Utilisation de Mongoose pour la gestion de la base de données MongoDB : définition des schémas et des modèles pour les données qui facilitent les opérations CRUD"
+              },
+              "competences" : {
+                "c1": "Mise en place d’une structure modulaire pour séparer les responsabilités : routeurs : définition des routes, middlewares : étapes intermédiaires du traitement des requêtes (optimisation des images, authentification avec JWT), contrôleurs :  logique métier avec les modèles.",
+                "c2":"Stocker des données de manière sécurisée",
+                "c3":"Mettre en œuvre des opérations CRUD de manière sécurisée"
+              }
+            }         
          }
        ]
      }

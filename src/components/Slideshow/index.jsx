@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import './slideshow.scss';
 import Arrows from "../../assets/images/Arrows.png";
 
-const Slideshow = ({selHousing}) => {
+const Slideshow = ({selHousing,  onCloseDiaporama }) => {
   const [index, setCurrentIndex] = useState(0);
   const previousPicture = () => {
   // vérif de la valeur de l'index de l'image courante
@@ -16,7 +16,6 @@ const Slideshow = ({selHousing}) => {
     const newIndex = isLastSlide ? 0 : index + 1;
     setCurrentIndex(newIndex);
   };
-
   return (
     <section className="slideshowSection">
       <div className="picturesDiv">
@@ -47,6 +46,7 @@ const Slideshow = ({selHousing}) => {
           alt="Flêche suivante"
         />
       </div> 
+      <button className="closeBtn" onClick={onCloseDiaporama}>X</button>
     </section>
     )
 };

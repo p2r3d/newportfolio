@@ -11,73 +11,148 @@
   background-color: rgba(0, 0, 0, 0.2);    
   z-index: 10;  
   .modalContent {
-    @include flex-col-center;
-    justify-content: center;    
-    gap:20px;
+    width:90%;
+    max-height: 90vh;;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     padding: 20px;
     background-color:$portfolio-background-color;
     position: relative;
-
-    .modalCloseBtn {
-      position: absolute;
-      top: 15px;
-      right: 15px;  
-      height: 40px;
-      width:60 px;
-      font-size: 22px;
-      border-radius: 6px;
-      padding:0 12px;
-      color: $font-btn-color;
-      background-color: $font-color;
-      border:0;
-      cursor: pointer;
-    }
-    .modalTitle {
-      font-size: 1.8rem;
-      margin:0;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-    .modalDescription {
-      font-size: 1.2rem;
-      margin-bottom: 20px;       
-      padding:0;
-      margin:0;
-    }
-    .cardTechnologies{
-      @include flex-row-center;
-      flex-wrap: wrap;
-      gap: 20px;
-      filter: grayscale(80%);
-        p {
-          font-size: 14px;
-        }
-        .cardTechnology {
-          width: 50px;
-          height:50px;
-          object-fit:contain;
-        }       
-      }
-    }  
-    .linksDiv {
+    overflow-y: auto;
+    .intro {
       display: flex;
-      gap:15px;
-      .cardCode {
-        border:3px solid $font-color;
-        width: 50px;
-        height:50px;
-        object-fit:cover;
-        object-position: 15%;
+      flex-direction: column;
+      align-items: center;
+      .modalCloseBtn {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        height: 35px;
+        font-size: 20px;
         border-radius: 50%;
+        padding: 0 12px;
+        color: $font-btn-color;
+        background-color: $font-color;
+        border: 0;
+        cursor: pointer;
+        &:hover {
+          background-color:red;
+          filter:grayscale(60%);
+        }
+      }   
+      .modalTitle {
+        font-size: 1.8rem;
+        margin: 0;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }   
+      .modalDescription {
+        font-size: $font-size;
+        margin: 0;
+        margin-bottom: 10px;
+      }
     }
-    .cardGHCode {
-        border:3px solid $font-color;
-        width: 50px;
-        height:50px;
-        object-fit:cover;
-        border-radius: 50%;
+    .contentDetails {
+      display: flex;
+      flex-direction: row;
+      gap:20px;
+      .left {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        padding: 0 20px;
+        margin: 0;
+        flex-basis:80%;
+        @include cardEffect;
+        p{
+          text-align: center;
+          font-weight: 600;
+        }
+      }
+      .right {
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        .cardTechnologiesDiv {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 10px;
+          @include cardEffect;
+          padding:10px 10px;
+          p{
+            margin:0;
+            font-size: 20px;
+          }
+          .technologies {
+            display: flex;
+            .technology {
+              display: flex;
+              flex-direction: row;
+              width: 35px;
+              height: 35px;
+              object-fit: contain;
+            }  
+          }
+        }
+        .linksDiv {
+          display: grid;
+          grid-template-rows: auto auto; 
+          grid-template-columns: 1fr 1fr; 
+          justify-items: center;
+          align-items: center;
+          @include cardEffect;
+          padding:10px 10px;
+          .cardCode {
+            border: 3px solid $font-color;
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            object-position: 15%;
+            border-radius: 50%;
+          }  
+          .cardGHCode {
+            border: 3px solid $font-color;
+            width: 35px;
+            height: 35px;
+            object-fit: cover;
+            border-radius: 50%;
+          }
+          p{
+            margin:0;
+            font-size: 18px;
+          }
+        }
+        .detailImg {
+          display: flex;
+          flex-direction: column; 
+          align-items: center;
+          width: 100%;    
+          cursor: pointer;        
+          ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;    
+            padding:0;  
+            li {         
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+              border-radius: 8px;
+              overflow: hidden;
+              img {
+                width: 200px;
+                height: auto; 
+              }  
+            }    
+          }
+        }   
+      }  
     }
-  }
+  } 
 }
 /************* Tablette *******************/
 @media screen and (min-width: 770px) and (max-width: 1023px) {
