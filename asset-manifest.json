@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.02d6955d.css",
-    "main.js": "/static/js/main.6a2f4441.js",
+    "main.css": "/static/css/main.49775264.css",
+    "main.js": "/static/js/main.d28b1369.js",
     "static/media/NC_mission.webp": "/static/media/NC_mission.1685de0e24f5c8ee61a6.webp",
     "static/media/MM_mission.webp": "/static/media/MM_mission.fdc2d27c4de269f8cbb4.webp",
     "static/media/kasa_accueil.webp": "/static/media/kasa_accueil.79367ec5fa6b8005f8af.webp",
@@ -64,11 +64,11 @@
     "static/media/VG_mission.webp:Zone.Identifier": "/static/media/VG_mission.webp:Zone.e0835b74bd0061cc646d.Identifier",
     "static/media/html5.webp:Zone.Identifier": "/static/media/html5.webp:Zone.e0835b74bd0061cc646d.Identifier",
     "static/media/kasa_mission.webp:Zone.Identifier": "/static/media/kasa_mission.webp:Zone.e0835b74bd0061cc646d.Identifier",
-    "main.02d6955d.css.map": "/static/css/main.02d6955d.css.map",
-    "main.6a2f4441.js.map": "/static/js/main.6a2f4441.js.map"
+    "main.49775264.css.map": "/static/css/main.49775264.css.map",
+    "main.d28b1369.js.map": "/static/js/main.d28b1369.js.map"
   },
   "entrypoints": [
-    "static/css/main.02d6955d.css",
-    "static/js/main.6a2f4441.js"
+    "static/css/main.49775264.css",
+    "static/js/main.d28b1369.js"
   ]
 }
