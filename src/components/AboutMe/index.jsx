@@ -13,9 +13,9 @@ function AboutMe() {
     <section id="aboutme" className="aboutMe" onClick={handleClick}>
       <h2>À propos</h2>
       <p className="visible"><em>{aboutMeData.aboutMe[0].accr}</em></p>
-      <div className={`textDiv ${showAdditionalText ? "visible" : ""}`}>
+      <div className={`textDiv ${showAdditionalText ? "visible" : "textDescription"}`}>
         {showAdditionalText && 
-          <div>
+          <div className='textDescription'>
             {aboutMeData.aboutMe[0].desc.map((description, index) => (
               <p key={index}><em>{description}</em></p>
             ))}
