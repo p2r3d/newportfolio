@@ -6,20 +6,27 @@ function Contact() {
     <section id="contact" className='contactSection'>
       <h2>Contact</h2>
       <div className="contactMe">
-        {/*<i className="fa-sharp fa-regular fa-envelope"></i>*/}
-        <p><em>Pour démarrer un projet ensemble, ou pour tout renseignement,</em></p> 
-        <p><em>n'hésitez pas à me contacter via ce formulaire !</em></p>
-      </div>
+       <div>
+          <p><em>Pour démarrer un projet ensemble, ou pour tout renseignement,</em></p> 
+          <p><em>n'hésitez pas à me contacter par email </em></p>
+        </div>
+        <div>
+            <a href="mailto:pascale.pierrard@laposte.net" className='contactEmail'>
+            <i className="fa-sharp fa-regular fa-envelope"></i>
+            <span><strong>pascale.pierrard@laposte.net</strong></span>
+            </a>
+        </div>
+       </div>
       <div className='contact'>
+        <p><em>ou via le formulaire :</em></p>
         <form 
         name="contact" 
         method="post" 
         className="form" 
         data-netlify="true"
-        onSubmit="submit"
-        netlify >
+        >
           <input type="hidden" name="form-name" value="contact" />
-          <label htmlFor="name" className='formLabel'>Nom </label>
+          <label htmlFor="name" className='formLabel' id="name">Nom </label>
           <input type="text" className='formInput' name="name"/>
           <label htmlFor="email" className='formLabel'>email</label>
           <input type="email" className='formInput' name="email"/>

@@ -72,7 +72,7 @@
                 "p2":"Planification d'un projet"
               },
               "solutions" : {
-                "s1":"Se familiariser avec les principes de base des méthodes agiles avec des cours, des tutos, des informations auprès de professionnels",
+                "s1":"Se familiariser avec les principes de base des méthodes agiles avec des cours, des tutoriels, des informations auprès de professionnels",
                 "s2":"Utiliser des outils de gestion de projet comme le tableau Kanban avec Trello pour suivre les tâches et les avancements du projet de manière itérative et collaborative"
               },
               "competences" : {
@@ -136,7 +136,7 @@
                 "p3":"Utilisation de Sass"
               },
               "solutions" : {
-                "s1":"Planification de la structure de l’interface avec des petits composants bien définis,utilisation des propriétés (props) pour passer des données d’un composant à l‘autre, gestion réactive des mises à jour des composants avec les états avec useState",
+                "s1":"Planification de la structure de l’interface avec des petits composants bien définis, utilisation des propriétés (props) pour passer des données d’un composant à l‘autre, gestion réactive des mises à jour des composants avec 'useState'",
                 "s2":"Utilisation de React Router pour définir les routes en utilisant le composant <BrowserRouter>",
                 "s3":"Tests d’utilisation de Sass et utilisation de node-sass pour la compilation"
               },

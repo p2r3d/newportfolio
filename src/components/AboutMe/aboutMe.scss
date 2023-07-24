@@ -10,18 +10,16 @@
   padding: 0 50px;
   cursor: pointer;
   .textDiv {
-    filter: grayscale(40);  
-    .visible {
+    filter: grayscale(40); 
+    max-height:50px; 
+    transition: max-height 0.5s ease-in-out;
+    &.visible {
       margin: 0;
       overflow: hidden;
       font-size: $font-size;   
+      max-height: 1000px; 
     }
   }
-  /*p {
-    animation-duration: 0.5s;
-    animation-name: slidein;
-  }*/
-
   .openTextBtn {
     display: flex;
     justify-content: center;

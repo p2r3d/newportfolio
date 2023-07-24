@@ -12,6 +12,10 @@
     i {
       font-size: 40px;
       color: $font-color;
+      transition: transform 0.3s ease-in-out;
+      &:hover {
+       transform: rotate(360deg); 
+    }
     }
   }
   .navbar {

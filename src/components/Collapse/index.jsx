@@ -13,7 +13,7 @@ function Collapse({title,description,image }) {
       <i className={image}></i>
       <h3>{title}</h3>
       {isOpened && (
-        <div className="descriptionDiv">
+        <div className={`descriptionDiv ${isOpened ? "visible" : ""}`}>
           {description.map((desc, index) => (
             <p key={index} className="detailsContainer">
               <span className="titleDesc">{desc.split(":")[0]}</span> 

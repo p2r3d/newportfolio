@@ -12,14 +12,15 @@ function AboutMe() {
   return (
     <section id="aboutme" className="aboutMe" onClick={handleClick}>
       <h2>À propos</h2>
-      <div className='textDiv'>
+      <p className="visible"><em>{aboutMeData.aboutMe[0].accr}</em></p>
+      <div className={`textDiv ${showAdditionalText ? "visible" : ""}`}>
         {showAdditionalText && 
-          <div className="visible">
+          <div>
             {aboutMeData.aboutMe[0].desc.map((description, index) => (
               <p key={index}><em>{description}</em></p>
             ))}
         </div>}
-        <p className="visible"><em>{aboutMeData.aboutMe[0].accr}</em></p>
+        
       </div>    
       <button className="openTextBtn">          
         <span className="plusDiv">

@@ -5,21 +5,21 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <script src="https://kit.fontawesome.com/b4aa609cc9.js" crossorigin="anonymous"></script>    
     <meta name="viewport" content="width=device-width, initial-scale=1" />   
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
     <title>Création de sites internet</title>
+    <meta http-equiv="Content-Security-Policy-Report-Only" >
   </head>
   <body>
     <!-- A little help for the Netlify post-processing bots -->
     <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" name="name" />
-      <input type="email" name="email" />
-      <textarea name="message"></textarea>
+      <input type="text" name="name" id="name"/>
+      <input type="email" name="email" id="email"/>
+      <textarea name="message" id="message"></textarea>
     </form>
     <div id="root"></div>
   </body>
 </html>
+

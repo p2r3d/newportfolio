@@ -1,10 +1,10 @@
 import React from 'react';
 import './footer.scss'
 
-function Footer({logo, description, text}) {
+function Footer() {
   return (
 	  <footer className='footer'>
-      <h6>Pascale Pierrard - juillet 2023</h6>
+      <h6>Pascale Pierrard - Juillet 2023</h6>
     </footer>   
   )
 }

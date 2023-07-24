@@ -109,10 +109,10 @@ function Modale({ project, onCloseModal }) {
               </div>
              )}
             </div>
-            {/* Affichage des iaporama*/}     
+            {/* Affichage des présentations*/}     
             {project.pictures && (          
             <div className="detailImg">
-            <p>Diaporama</p>
+            <p onClick={handleImageClick}>Présentation</p>
               <ul>
               {project.pictures.map((picture, index) => (
                 <li key={index}>
