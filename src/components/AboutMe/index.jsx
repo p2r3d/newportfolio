@@ -16,10 +16,8 @@ function AboutMe() {
         {showAdditionalText && 
           <div className="visible">
             {aboutMeData.aboutMe[0].desc.map((description, index) => (
-                <p key={index}>
-                {description.split("")}
-                </p>
-              ))}
+              <p key={index}><em>{description}</em></p>
+            ))}
         </div>}
         <p className="visible"><em>{aboutMeData.aboutMe[0].accr}</em></p>
       </div>    

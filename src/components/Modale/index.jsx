@@ -19,7 +19,6 @@ function Modale({ project, onCloseModal }) {
     setShowSlideshow(true);
   };
   return (
-
     <div key={project.id} className="modal">
       <div className="modalContent">
         <div className="intro">
@@ -28,15 +27,12 @@ function Modale({ project, onCloseModal }) {
           <div className="modalDescription">{project.description}</div>
           <div className="modalDescription"><em>{project.projectDetails.origin}</em></div>
         </div>
-        {/* Affichage du diaporama selon état local*/} 
-        {showSlideshow && <Slideshow selHousing={project} onCloseDiaporama={() => setShowSlideshow(false)} />}
-
         <div className="contentDetails">
         {/* Affichage des détails du projet*/}
         {project.projectDetails && (
           <div  className="left"> 
             <p>Mission</p>
-            <div className="">{project.projectDetails.mission}</div>
+            <span className="">{project.projectDetails.mission}</span>
             <p>Problématiques</p>
             <div>
               <ul>
@@ -57,8 +53,9 @@ function Modale({ project, onCloseModal }) {
             <div>
               <ul>
                 {Object.values(project.projectDetails.competences).map((competences, index) => (
-                  <div><li key={index}>{competences}</li>
-                  </div>
+
+                    <li key={index}>{competences}</li>
+
                 ))}
               </ul>
             </div>
@@ -88,7 +85,7 @@ function Modale({ project, onCloseModal }) {
             {project.code && (
               <div className="linksDiv">
                 <p>Github</p>  
-                {project.site && (<p>Site</p>)}
+                {project.site && (<p>Site Web</p>)}
                 <a href={project.code} target="_blank" rel="noopener noreferrer">
                 <img 
                 className="cardGHCode"
@@ -112,8 +109,10 @@ function Modale({ project, onCloseModal }) {
               </div>
              )}
             </div>
-            {/* Affichage des captures d'écran*/}               
+            {/* Affichage des iaporama*/}     
+            {project.pictures && (          
             <div className="detailImg">
+            <p>Diaporama</p>
               <ul>
               {project.pictures.map((picture, index) => (
                 <li key={index}>
@@ -127,9 +126,13 @@ function Modale({ project, onCloseModal }) {
               ))}
                 </ul>
             </div> 
+            )}
           </div>
-        </div>  
-      </div>       
+        </div>   {/* Affichage du diaporama selon état local*/} 
+        {showSlideshow && <Slideshow selHousing={project} onCloseDiaporama={() => setShowSlideshow(false)} />}
+
+      </div>            
+  
     </div>
   );
 }

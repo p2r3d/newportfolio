@@ -8,28 +8,27 @@
   left: 0;
   right: 0;
   bottom:0;
-  background-color: rgba(0, 0, 0, 0.2);    
+  background-color: rgba(0, 0, 0, 0.4);    
   z-index: 10;  
+  max-width: 1440px;
+  margin:auto;
   .modalContent {
+    @include flex-col-center;
     width:90%;
     max-height: 90vh;;
-    display: flex;
-    flex-direction: column;
     gap: 20px;
     padding: 20px;
     background-color:$portfolio-background-color;
     position: relative;
     overflow-y: auto;
     .intro {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      @include flex-col-center;
       .modalCloseBtn {
         position: absolute;
         top: 15px;
         right: 15px;
-        height: 35px;
-        font-size: 20px;
+        height: 40px;
+        font-size: $font-size;
         border-radius: 50%;
         padding: 0 12px;
         color: $font-btn-color;
@@ -42,7 +41,7 @@
         }
       }   
       .modalTitle {
-        font-size: 1.8rem;
+        font-size: 24px;
         margin: 0;
         font-weight: bold;
         margin-bottom: 10px;
@@ -58,21 +57,28 @@
       flex-direction: row;
       gap:20px;
       .left {
-        font-size: 1.2rem;
+        font-size: $font-size;
         margin-bottom: 20px;
         padding: 0 20px;
         margin: 0;
-        flex-basis:80%;
+        width:75%;
         @include cardEffect;
         p{
           text-align: center;
           font-weight: 600;
+        }
+        ul {
+          padding: 0;
+          li{
+            list-style-type: none;
+          }
         }
       }
       .right {
         display: flex;
         flex-direction: column;
         gap:20px;
+        width: 25%;
         .cardTechnologiesDiv {
           display: flex;
           flex-direction: column;
@@ -87,6 +93,7 @@
           }
           .technologies {
             display: flex;
+            flex-wrap: wrap;
             .technology {
               display: flex;
               flex-direction: row;
@@ -129,7 +136,13 @@
           flex-direction: column; 
           align-items: center;
           width: 100%;    
-          cursor: pointer;        
+          cursor: pointer; 
+          @include cardEffect;   
+          padding:0 10px;    
+          p{
+            margin:0;
+            font-size: $font-size;
+          } 
           ul {
             list-style: none;
             display: flex;
@@ -144,7 +157,7 @@
               border-radius: 8px;
               overflow: hidden;
               img {
-                width: 200px;
+                width: 150px;
                 height: auto; 
               }  
             }    
@@ -156,82 +169,105 @@
 }
 /************* Tablette *******************/
 @media screen and (min-width: 770px) and (max-width: 1023px) {
-    .modal {
-    .modalContent {
-      padding:20px 0;max-width: 1020px;
-      .modalCloseBtn {
-        width:15 px;
-        height: 30px;
-        font-size: 16px;
-      }
+.modal {
+  .modalContent {
+    .intro {
+      @include flex-col-center;
       .modalTitle {
-      font-size: 1.6rem;
-      font-weight: bold;
-      }
+        font-size: 22px;
+      }   
       .modalDescription {
-        font-size: 1.2rem;
-      }
-      .cardTechnologies {
-        gap: 5px;
-        .cardTechnology {
-          width: 40px;
-          height: 40px;
-        }
-      }
-      .linksDiv {
-      display: flex;
-      gap:10px;
-      .cardCode {
-        width: 35px;
-        height:35px;
-        }
-        .cardGHCode {
-            width: 35px;
-            height:35px;
-        }
+        font-size: $font-size-tablet;
       }
     }
-  }
+    .contentDetails {
+      .left {
+        font-size: $font-size-tablet;
+      }
+      .right {
+        .detailImg {
+          padding:0 15px;    
+          p{
+            margin:0;
+            font-size: $font-size-tablet;
+          } 
+           }   
+      }  
+    }
+  } 
+}
 }
  
 /************* Mobile *******************/
 @media screen and (max-width: 769px) {
-  .modal {
+  .modal{ 
     .modalContent {
-      padding:20px 0;
-      .modalCloseBtn {
-        width:15 px;
-        height: 30px;
-        font-size: 16px;
-      }
-      .modalTitle {
-      font-size: 1.6rem;
-      font-weight: bold;
-      }
-      .modalDescription {
-        font-size: 1.2rem;
-        padding : 0 10px;
-        text-align: center;
-      }
-      .cardTechnologies {
-        gap: 5px;
-        .cardTechnology {
-          width: 40px;
-          height: 40px;
+      padding: 10px;
+      width:90%;
+      .intro {
+        .modalCloseBtn {
+          font-size: $font-size-mobil;
+        }   
+        .modalTitle {
+          font-size: $font-size-mobil;
+          font-weight: bold;
+        }   
+        .modalDescription {
+          font-size: $font-size-text-mobil;
         }
       }
-      .linksDiv {
-      display: flex;
-      gap:10px;
-      .cardCode {
-        width: 35px;
-        height:35px;
+      .contentDetails {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:20px;
+        .left {
+          font-size: $font-size-text-mobil;
+          width:100%;
         }
-        .cardGHCode {
-            width: 35px;
-            height:35px;
-        }
+        .right {
+          gap:20px;
+          width: 100%;
+          .cardTechnologiesDiv {
+            padding:10px 10px;
+            p{
+              margin:0;
+              font-size: $font-size-mobil;
+            }
+            .technologies {
+              display: flex;
+              gap:15px;
+              flex-wrap: wrap;
+            }
+          }
+          .linksDiv {
+            padding: 5px 30%;
+            gap:10px;
+            p{
+              margin:0;
+              font-size: $font-size-mobil;
+            }
+          }
+          .detailImg {
+            display: flex;   
+            cursor: pointer; 
+            padding:10px 0;     
+            p{
+              margin:0;
+              font-size: $font-size-mobil;
+            }
+            ul {
+              display: flex;
+              flex-direction: row;
+              li {
+                img {
+                  width:100px;
+                }
+              }         
+            }
+          }   
+        }  
       }
-    }
+    } 
   }
 }

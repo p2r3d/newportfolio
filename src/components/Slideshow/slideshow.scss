@@ -1,8 +1,10 @@
 @import '../../style/variables';
 .slideshowSection {
   width:100%;
-  margin:0;    position : relative;  
-
+  left:50%;
+  margin:0;    
+  position : relative;  
+  transform: translateX(-50%);
   background-color:  $portfolio-background-color;
   .picturesDiv {
     display: flex;
@@ -67,41 +69,50 @@
 }
 /************* Tablette *******************/
 @media screen and (min-width:770px) and (max-width: 1023px){
-.slideshowSection {
-  .picturesDiv {
-    display: flex;
-    position : relative;  
-    margin: 0 10px;
+  .slideshowSection {
+    .picturesDiv {
+      display: flex;
+      position : relative;  
+      margin: 0 10px;
+    }
+    .PArrow {
+      height: 30px;
+    }
+    .NArrow {
+      position: absolute;
+      top: 44%;
+      right: 1%;
+      height: 30px;
+      transform:rotate(180deg);
+    }
+    .slideshowCounter {
+      font-size:1rem;
+    } 
   }
-  .PArrow {
-    height: 30px;
-  }
-  .NArrow {
-    position: absolute;
-    top: 44%;
-    right: 1%;
-    height: 30px;
-    transform:rotate(180deg);
-  }
-  .slideshowCounter {
-    font-size:1rem;
-  } 
-}
 }
 /************* Mobile *******************/
 @media screen and (max-width: 769px) {
-.slideshowSection {
-  .picturesDiv {
-    display: flex;
-    position : relative;  
-    margin: 0 10px;
+  .slideshowSection {
+    width:100%;
+    .picturesDiv {
+      display: flex;
+      position : relative;  
+      margin: 0 10px;
+    }
+    .PArrow, .NArrow {
+      height: 20px;
+    }
+    .slideshowCounter {
+      display: none;
+    } 
+    .closeBtn {
+      width:25px;
+      height:25px;
+      font-size: $font-size-mobil;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
-  .PArrow, .NArrow {
-    height: 20px;
-  }
-  .slideshowCounter {
-    display: none;
-  } 
-}
 }
 
