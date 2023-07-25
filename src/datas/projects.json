@@ -6,7 +6,7 @@
            "picture": "booki.webp",
            "description": "Création de la page d'accueil d'une agence de voyage",
            "technos": [1,2,8],
-           "pictures":["booki_1.webp"],
+           "pictures":["booki_1.webp", "booki_logements.webp","booki_filtres.webp", "booki_activites.webp"],
            "code" : "https://github.com/p2r3d/P2_Booki",
            "site" : "https://p2r3d.github.io/P2_Booki/",
            "projectDetails" : {
@@ -61,7 +61,7 @@
             "picture": "MenuMaker.webp",
            "description": "Planification du développement d'un site de fabrication de menus de restaurants",
            "technos": [1,2,3,8,12],
-           "pictures":["MM_recap.webp","MM_processus.webp","MM_communication.webp","MM_espace.webp","MM_communication.webp"],
+           "pictures":["MM_recap.webp","MM_processus.webp","MM_communication.webp","MM_espace.webp","MM_planification.webp"],
            "code" : "",
            "site" : "",
            "projectDetails" : {

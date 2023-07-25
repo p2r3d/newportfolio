@@ -8,12 +8,13 @@
   background-color:  $portfolio-background-color;
   .picturesDiv {
     display: flex;
+    justify-content: center;
     position : relative;  
     margin-right: 0 20px;
   }
   .slideshowImg {
     overflow: hidden;
-    width: 100%;
+    width: 83%;
     border: 1px solid $font-color;
   }
   .PArrow {
@@ -75,6 +76,9 @@
       position : relative;  
       margin: 0 10px;
     }
+    .slideshowImg{
+      width: 100%;
+    }
     .PArrow {
       height: 30px;
     }
@@ -97,7 +101,10 @@
     .picturesDiv {
       display: flex;
       position : relative;  
-      margin: 0 10px;
+      margin: 0 0px;
+    }
+    .slideshowImg{
+      width: 100%;
     }
     .PArrow, .NArrow {
       height: 20px;
