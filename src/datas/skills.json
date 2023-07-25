@@ -5,9 +5,9 @@
       "title": "Développement Front-end",
       "icon" : "fas fa-desktop",
       "Description": [
-        "HTML5, CSS3, SASS et JavaScript : Création de sites modernes et interactifs en utilisant les dernières technologies front-end",
-        "React : Développement d'interfaces utilisateur réactives et dynamiques",
-        "Composants React : Construction de composants réutilisables pour favoriser une architecture modulaire et maintenable"
+        "HTML5, CSS3, SASS et JavaScript : Création de sites modernes, animés et interactifs en utilisant les dernières technologies",
+        "React : Développement d'interfaces utilisateur réactives et dynamiques avec construction de composants réutilisables",
+        "Outils : ESLint (analyse du code), Webpack (efficacité et optimisation du code), Babel (compatibilité navigateurs),"
       ]
     },
     {
@@ -26,7 +26,7 @@
       "title": "Design Web Convivial ",
       "icon" : "fa-solid fa-icons",
       "Description": [
-        "Prototypage : Utilisation de Figma pour la conception graphique",
+        "Prototypage : Utilisation de Figma, de Miro pour la conception graphique",
         "Responsive Design : Adaptation de l'affichage des sites web aux mobiles, tablettes, ordinateurs",
         "UX/UI Design : Création d'interfaces utilisateur intuitives pour une expérience utilisateur agréable"
       ]
@@ -36,9 +36,10 @@
       "title": "Optimisation et SEO",
       "icon" : "fas fa-bullseye",
       "Description": [
-        ":Amélioration des performances pour un chargement rapide du site et une expérience utilisateur fluide",
+        "Audits : Optimisation des performances d’un site web (GTMetrix,Lighthouse)",
         "Architecture SEO-friendly : Structuration du contenu et utilisation de balises HTML appropriées pour faciliter l'indexation et le classement du site par les moteurs de recherche",
-        "Accessibilité : Respect des normes d'accessibilité pour permettre à tous les utilisateurs de naviguer et d'interagir facilement"
+        "Accessibilité : Respect des normes d'accessibilité pour permettre à tous les utilisateurs de naviguer et d'interagir facilement",
+        "Référencement : Balises spécifiques pour réseaux sociaux ou sur les moteurs de recherche"
       ]
     },
     {
@@ -48,8 +49,9 @@
       "Description": [
         "Méthode Scrum :rôles définis, itérations courtes ",
         "Outil de gestion de projet Kanban : pour une gestion visuelle des fonctionnalités découpées en tâches",
+        "Documentation : Rédaction des spécifications techniques d'un projet web à partir de besoins fonctionnels",
         "Adaptabilité : communication, collaboration régulière ",
-        "Veille technologique : adaptation aux évolutions technologiques"
+        "Veille technologique : DailyDev, Feedly, Wakelet"
       ]
     },
     {
@@ -57,6 +59,7 @@
       "title": "Autres compétences",
       "icon" : "fas fa-screwdriver",
       "Description": [
+        "Langages (niveau débutant): C++, python, Shell Bash",
         "Git : Gestion du code source, collaboration avec les équipes de développement",
         "Intégration de CMS : Intégration personnalisée de sites web avec  systèmes de gestion, WordPress, Drupal, Joomla ...",
         "Green Code : Conception de sites web plus respectueux de l'environnement"
@@ -69,7 +72,7 @@
     "accr": "La conception de sites web interactifs et personnalisés est un défi palpitant ; professionnels, associations ou particuliers, je serai ravie de partager mes compétences et ma passion pour le développement web en répondant à vos besoins de création de site Internet. ",
     "desc": [
       "Je suis Pascale Pierrard, diplômée scientifique et passionnée par les mondes de la Tech, avec une expérience depuis 1999 dans le développement web avec ASP (Active Server Pages, technologie logicielle destinée à créer des sites web dynamiques).",
-      "Après avoir travaillé sur des outils d’apprentissage de langues pendant plusieurs années, j'ai choisi de faire une pause professionnelle consacrée à ma famille, et au cours de laquelle j’ai continué à nourrir mon intérêt :",
+      "Après avoir travaillé sur des outils d’apprentissage de langues pendant plusieurs années, j'ai choisi de faire une pause professionnelle consacrée à ma famille, au cours de laquelle j’ai continué à nourrir mon intérêt :",
       " - pour l’Informatique en suivant des cours en ligne certifiants chez Openclassrooms (javascript, python, initiation à l'IA) et des tutoriels sur les sites de Grafikart et de l'École du Web (développement frontend)","  - pour l’Éducation avec l’obtention du CRPE(Concours de Recrutement de Professeur des Écoles) et du C2i2E(Certificat Informatique et Internet de l’Enseignement Supérieur, niveau enseignant) en 2007, suivis  pendant plusieurs années d'interventions hebdomadaires en école primaire pour des cours de préparation au B2i (Brevet Informatique et Internet).",
       "Au fil des années, j'ai développé un véritable attrait pour la création de sites web, répondant aux besoins spécifiques de divers horizons (Éducation Nationale, associations sportives et culturelles, sites professionnels).",
       "Avec l'évolution rapide des technologies, une nécessaire mise à jour des connaissances s’est imposée, concrétisée par une formation diplômante de « Développeur Web » chez Openclassrooms. Cet enseignement professionnel m’a permis d’acquérir les compétences nécessaires pour devenir une développeuse web polyvalente, avec l'utilisation de langages de programmation tels que HTML5, CSS3 et Javascript et en explorant des frameworks actuels tels que React et NodeJs.",

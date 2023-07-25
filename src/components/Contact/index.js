@@ -6,9 +6,10 @@ function Contact() {
     <section id="contact" className='contactSection'>
       <h2>Contact</h2>
       <div className="contactMe">
+      {/* contact via email envoyé avec le navigateur */}
        <div>
           <p><em>Pour démarrer un projet ensemble, ou pour tout renseignement,</em></p> 
-          <p><em>n'hésitez pas à me contacter par email </em></p>
+          <p><em>merci de me contacter par email </em></p>
         </div>
         <div>
             <a href="mailto:pascale.pierrard@laposte.net" className='contactEmail'>
@@ -17,6 +18,7 @@ function Contact() {
             </a>
         </div>
        </div>
+      {/* contact via formulaire emailjs géré par netlify (code fourni par netlify)*/}
       <div className='contact'>
         <p><em>ou via le formulaire :</em></p>
         <form 

@@ -2,12 +2,15 @@ import React from "react";
 import "./modale.scss";
 import Slideshow from "../Slideshow";
 import { useState } from "react";
+// import des données à afficher dans la modale
 import Technos from "../../datas/technologies.json";
 
 function Modale({ project, onCloseModal }) {
+  //gère la fermeture de la modale 
   const handleCloseClick = () => { onCloseModal(); };
-  
+  // hook useState renvoie un tableau avec la valeur initiale du fichier technologies
   const [technoState] = useState(Technos);
+  // recherche du fichier dont l'identifiant est celui du projet passé en props
   const technologies = project.technos.map((technoId) =>
     technoState.technologies.find((tech) => tech.id === technoId)
   );
@@ -36,6 +39,8 @@ function Modale({ project, onCloseModal }) {
             <p>Problématiques</p>
             <div>
               <ul>
+              {/*extraction des valeurs des propriétés de l'objet problematiques 
+              puis itération sur chaque élément  */}
                 {Object.values(project.projectDetails.problematiques).map((problematique, index) => (
                   <li key={index}>{problematique}</li>
                 ))}
@@ -44,7 +49,8 @@ function Modale({ project, onCloseModal }) {
             <p>Solutions</p>
             <div>
               <ul>
-                {Object.values(project.projectDetails.solutions).map((solutions, index) => (
+              {/*extraction des valeurs des propriétés de l'objet solutions 
+              puis itération sur chaque élément  */}                {Object.values(project.projectDetails.solutions).map((solutions, index) => (
                   <li key={index}>{solutions}</li>
                 ))}
               </ul>
@@ -52,16 +58,16 @@ function Modale({ project, onCloseModal }) {
             <p>Compétences</p>
             <div>
               <ul>
-                {Object.values(project.projectDetails.competences).map((competences, index) => (
-
-                    <li key={index}>{competences}</li>
-
+              {/*extraction des valeurs des propriétés de l'objet competences 
+              puis itération sur chaque élément  */}                
+              {Object.values(project.projectDetails.competences).map((competences, index) => (
+                <li key={index}>{competences}</li>
                 ))}
               </ul>
             </div>
           </div>
         )}
-        {/* Affichage ccolonne de droite*/}
+        {/* Affichage colonne de droite*/}
           <div className="right">        
             <div className="cardTechnologiesDiv"> 
               <p>Technologies</p>  
@@ -114,6 +120,7 @@ function Modale({ project, onCloseModal }) {
             <div className="detailImg">
             <p onClick={handleImageClick}>Présentation</p>
               <ul>
+              {/*itération sur les images mini de la présentation du projet  */}
               {project.pictures.map((picture, index) => (
                 <li key={index}>
                   <img src={require(`../../assets/projectImages/${picture}`)} 
@@ -128,11 +135,10 @@ function Modale({ project, onCloseModal }) {
             </div> 
             )}
           </div>
-        </div>   {/* Affichage du diaporama selon état local*/} 
+        </div>   
+        {/* Affichage du diaporama selon état local*/} 
         {showSlideshow && <Slideshow selHousing={project} onCloseDiaporama={() => setShowSlideshow(false)} />}
-
       </div>            
-  
     </div>
   );
 }

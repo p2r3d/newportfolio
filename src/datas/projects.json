@@ -10,7 +10,7 @@
            "code" : "https://github.com/p2r3d/P2_Booki",
            "site" : "https://p2r3d.github.io/P2_Booki/",
            "projectDetails" : {
-              "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web ».",
+              "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web »",
               "mission" : "L’entreprise Booki souhaite développer un site Internet qui permettra aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Mon objectif est d’intégrer l’interface de ce site en HTML et CSS",
               "problematiques":{
                 "p1":"Proposer un affichage correct sur différents appareils et tailles d'écran de manière fluide"
@@ -24,7 +24,8 @@
                 "c1":"Implémenter une interface responsive avec HTML et CSS",
                 "c2":"Versionner son projet avec Git et Github",
                 "c3":"Intégrer du contenu conformément à une maquette avec HTML et CSS",
-                "c4":"Installer un environnement de développement front-end"
+                "c4":"Installer un environnement de développement front-end",
+                "c5":"Utiliser des bibliothèques d'icônes et de polices"
               }
             }
          },
@@ -38,7 +39,7 @@
            "code" : "https://github.com/p2r3d/P3_SophieBluel",
            "site" : "",
            "projectDetails" : {
-              "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web ».",
+              "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web »",
               "mission" : "Développer en JavaScript la page web dynamique d’une architecte mettant en valeur ses travaux avec des options de filtrage par catégorie, ainsi que des fonctionnalités d'ajout et de suppression de travaux",
               "problematiques":{
                 "p1":"Modification du contenu, de la structure et du style des éléments",
@@ -51,21 +52,23 @@
               "competences" : {
                 "c1":"Manipuler les éléments du DOM avec JavaScript",
                 "c2":"Récupérer les données utilisateurs dans le JavaScript via des formulaires",
-                "c3":"Gérer les événements utilisateurs avec JavaScript"
+                "c3":"Gérer les événements utilisateurs avec JavaScript",
+                "c4":"Utiliser la ligne de commande dans un terminal",
+                "c5":"Utiliser Figma, application de conception de maquettes"
               }
             }
          },
          {
            "id": 3,
            "title": "Menu maker",
-            "picture": "MenuMaker.webp",
+            "picture": "MM_0.webp",
            "description": "Planification du développement d'un site de fabrication de menus de restaurants",
            "technos": [1,2,3,8,12],
            "pictures":["MM_recap.webp","MM_processus.webp","MM_communication.webp","MM_espace.webp","MM_planification.webp"],
            "code" : "",
            "site" : "",
            "projectDetails" : {
-              "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web ».",
+              "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web »",
               "mission" : "Mettre en place une méthodologie de travail agile afin de mener, préparer et planifier le projet de développement d’un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus en quelques clics",
               "problematiques":{
                 "p1":"Mise en place d’une méthodologie de travail ",
@@ -76,11 +79,12 @@
                 "s2":"Utiliser des outils de gestion de projet comme le tableau Kanban avec Trello pour suivre les tâches et les avancements du projet de manière itérative et collaborative"
               },
               "competences" : {
-                "c1":"Suivre le déroulement du projet grâce à un outil de gestion de projet",
-                "c2":"Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
-                "c3":"Découper une fonctionnalité en tâches pour préparer le développement",
-                "c4":"Présenter la solution technique",
-                "c5":"Mettre en place une méthode de veille technologique"
+                "c1":"Suivre le déroulement du projet grâce à un outil de gestion de projet, tableau Kanban avec Trello",
+                "c2":"Aborder lune méthode de gestion de projet (Scrum)",
+                "c3":"Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
+                "c4":"Découper une fonctionnalité en tâches pour préparer le développement",
+                "c5":"Présenter la solution technique",
+                "c6":"Mettre en place une méthode de veille technologique (DailyDev, Feedly, Wakelet)"
               }
             }         
          },
@@ -94,8 +98,8 @@
            "code" : "https://github.com/p2r3d/nina-carducci.github.io",
            "site" : "https://p2r3d.github.io/nina-carducci.github.io/",
            "projectDetails" : {
-              "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web ».",
-              "mission" : "Optimiser et rendre accessible le site de la photographe Nina Carducci, tant sur les performances que sur le SEO, avec la mise en place d’un référencement local et l’ajout de metas pour les réseaux sociaux.",
+              "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web »",
+              "mission" : "Optimiser et rendre accessible le site de la photographe Nina Carducci, tant sur les performances que sur le SEO, avec la mise en place d’un référencement local et l’ajout de metas pour les réseaux sociaux",
               "problematiques":{
                 "p1":"Optimiser des images et des fichiers pour des temps de chargement rapides",
                 "p2":"Améliorer le référencement sur les moteurs de recherche, les réseaux sociaux ",
@@ -103,7 +107,7 @@
               },
               "solutions" : {
                 "s1":"Utilisation de Lighhouse pour avoir des audits automatisés ",
-                "s2":"Utilisation de Squoosh pour l’optimisation d'images (redimension et format webp)",
+                "s2":"Utilisation de Squoosh pour l’optimisation d'images (redimensionnement et format webp)",
                 "s3":"Utilisation de l’outil Coverage de Chrome pour supprimer le code non utilisé",
                 "s4":"Minification des fichiers, preload de polices, chargement des scripts en fin de fichier html",
                 "s5":"Amélioration du SEO avec les bonnes pratiques du codage HTML (validateurs W3C)",
@@ -113,8 +117,14 @@
                 "s9":"Aide de la communauté "
               },
               "competences" : {
-                "c1":"Optimiser les performances d’un site web",
-                "c2":"Débugger un site web grâce aux Chrome DevTools"
+                "c1":"Optimiser les performances d’un site web (GTMetrix,Lighthouse)",
+                "c2":"Débugger un site web grâce aux Chrome DevTools",
+                "c3":"Rédiger un cahier de recette pour tester un site",
+                "c4":"Concevoir un site web accessible, utiliser Wave",
+                "c5":"Utiliser Schema.org et les balises meta pour le référencement",
+                "c6":"Tester les Rich Snippet avec la console de recherche Google",
+                "c7":"Structurer les données affichées sur les réseaux sociaux avec OpenGraph, Twitter Cards",
+                "c8":"Utiliser une application pour compresser et redimensionner des images(Squoosh)"
               }
             }         
          },
@@ -128,7 +138,7 @@
            "code" : "https://github.com/p2r3d/p6_kasa",
            "site" : "",
            "projectDetails" : {
-              "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web ».",
+              "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web »",
               "mission" : "Développer le code front-end d’un site de location d’hébergements avec React",
               "problematiques":{
                 "p1":"Configuration de la navigation",
@@ -136,7 +146,7 @@
                 "p3":"Utilisation de Sass"
               },
               "solutions" : {
-                "s1":"Planification de la structure de l’interface avec des petits composants bien définis, utilisation des propriétés (props) pour passer des données d’un composant à l‘autre, gestion réactive des mises à jour des composants avec 'useState'",
+                "s1":"Planification de la structure de l’interface avec des petits composants bien définis, utilisation des propriétés (props) pour passer des données d’un composant à l‘autre, gestion réactive des mises à jour des composants",
                 "s2":"Utilisation de React Router pour définir les routes en utilisant le composant <BrowserRouter>",
                 "s3":"Tests d’utilisation de Sass et utilisation de node-sass pour la compilation"
               },
@@ -144,8 +154,9 @@
                 "c1":"Configurer la navigation entre les pages de l'application avec React Router",
                 "c2":"Développer une interface web avec Sass",
                 "c3":"Initialiser une application avec Create React App",
-                "c4":"Développer des éléments de l'interface avec des composants React",
-                "c5":"Mettre en œuvre des animations CSS"
+                "c4":"Développer des éléments de l'interface avec des composants React, utiliser les hooks pour gérer l'état local",
+                "c5":"Mettre en œuvre des animations CSS",
+                "c6":"Utiliser ESLint (analyse du code), Webpack (efficacité et optimisation du code), Babel (compatibilité navigateurs),"
               }
             }         
           },
@@ -153,14 +164,14 @@
            "id": 6,
            "title": "Vieux Grimoire",
            "picture": "VieuxGrimoire.webp",
-           "description": "Développement du backend pour un site de notation de livres.",
+           "description": "Développement du backend pour un site de notation de livres",
            "technos": [5,6,7,14,16],
            "pictures":["VG_0.webp","VG_1.webp","VG_2.webp","VG_3.webp"],
            "code" : "https://github.com/p2r3d/p7_vieuxGrimoire",
            "site" : "",
            "projectDetails" : {
-              "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web ».",
-              "mission" : "Développer le backend d’un site Internet de référencement et de notation de livres, de manière sécurisée et en tenant compte des bonnes pratiques du Green Code.",
+              "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web »",
+              "mission" : "Développer le backend d’un site Internet de référencement et de notation de livres, de manière sécurisée et en tenant compte des bonnes pratiques du Green Code",
               "problematiques":{
                 "p1":"Structuration du code",
                 "p2":"Sécurité de la base de données ",
@@ -171,9 +182,11 @@
                 "s2":"Utilisation de Mongoose pour la gestion de la base de données MongoDB : définition des schémas et des modèles pour les données qui facilitent les opérations CRUD"
               },
               "competences" : {
-                "c1": "Mise en place d’une structure modulaire pour séparer les responsabilités : routeurs : définition des routes, middlewares : étapes intermédiaires du traitement des requêtes (optimisation des images, authentification avec JWT), contrôleurs :  logique métier avec les modèles.",
+                "c1":"Mettre en place une structure modulaire pour séparer les responsabilités ; routeurs : définition des routes, middlewares : étapes intermédiaires du traitement des requêtes (optimisation des images, authentification avec JWT), contrôleurs :  logique métier avec les modèles",
                 "c2":"Stocker des données de manière sécurisée",
-                "c3":"Mettre en œuvre des opérations CRUD de manière sécurisée"
+                "c3":"Mettre en œuvre des opérations CRUD de manière sécurisée",
+                "c4":"Utiliser la pile Node Express MonoDB avec Mongoose, utiliser Atlas MongoDB",
+                "c5":"Principes du Green IT"
               }
             }         
          }
