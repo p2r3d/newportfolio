@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7bc716d5.css",
-    "main.js": "/static/js/main.6e9ff67e.js",
+    "main.js": "/static/js/main.b41ad593.js",
     "static/media/booki_logements.webp": "/static/media/booki_logements.652fc6083e43468aa6e5.webp",
     "static/media/booki_activites.webp": "/static/media/booki_activites.9814f7061a6699999a0b.webp",
     "static/media/booki_accueil.webp": "/static/media/booki_accueil.4f9702808e5618d204e6.webp",
@@ -15,6 +15,7 @@
     "static/media/SB_2.webp": "/static/media/SB_2.9bcac00952f9eff89436.webp",
     "static/media/VG_2.webp": "/static/media/VG_2.43eac9c700c3502665d1.webp",
     "static/media/booki_1.webp": "/static/media/booki_1.1e3504b0d89738c56ebe.webp",
+    "static/media/MM_0.webp": "/static/media/MM_0.006f3a6a58b0b3f9baac.webp",
     "static/media/MM_recap.webp": "/static/media/MM_recap.4bb24a1c1da4accd1eea.webp",
     "static/media/NC_referencement.webp": "/static/media/NC_referencement.40318aed17cb8a9cef80.webp",
     "static/media/NC_portfolio.webp": "/static/media/NC_portfolio.02b2bbce67bf7d5ba7f7.webp",
@@ -52,12 +53,13 @@
     "index.html": "/index.html",
     "static/media/jwt.webp": "/static/media/jwt.7ed68a71ed3b5fabca7b.webp",
     "static/media/figma.webp": "/static/media/figma.961f8e08d24b1a29d117.webp",
+    "static/media/MM_0.webp:Zone.Identifier": "/static/media/MM_0.webp:Zone.e0835b74bd0061cc646d.Identifier",
     "static/media/html5.webp:Zone.Identifier": "/static/media/html5.webp:Zone.e0835b74bd0061cc646d.Identifier",
     "main.7bc716d5.css.map": "/static/css/main.7bc716d5.css.map",
-    "main.6e9ff67e.js.map": "/static/js/main.6e9ff67e.js.map"
+    "main.b41ad593.js.map": "/static/js/main.b41ad593.js.map"
   },
   "entrypoints": [
     "static/css/main.7bc716d5.css",
-    "static/js/main.6e9ff67e.js"
+    "static/js/main.b41ad593.js"
   ]
 }
