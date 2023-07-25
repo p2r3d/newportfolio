@@ -92,13 +92,21 @@
   .navDiv {
     padding:5px;
     .logoDiv {
+      width:50%;
+      margin-bottom: 10px;
+      display:flex;
       .logo {
         font-size: 25px;
-        padding: 0 0 2.5rem 5rem;
+        padding: 0;
+        text-align: right;
+        width:20%;
       }
       .myName {
         font-size: $font-size-mobil; 
+        animation: writeNameMobil 1s ease-in-out forwards;
         width:100%;
+        text-align: left;
+        padding:0;
       } 
     } 
     .navbar {
@@ -139,6 +147,7 @@
     }
   }
 }
+/************* Très petit Mobile *******************/
 @media screen and (max-width: 300px) {
   .navDiv .logoDiv {
     .logo {

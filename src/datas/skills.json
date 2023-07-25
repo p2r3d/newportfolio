@@ -58,8 +58,8 @@
       "icon" : "fas fa-screwdriver",
       "Description": [
         "Git : Gestion du code source, collaboration avec les équipes de développement",
-        "Intégration de CMS : Intégration personnalisée de sites web avec  systèmes de gestion tels que WordPress, Drupal, Joomla ...",
-        "Green Code : conception de sites web plus respectueux de l'environnement"
+        "Intégration de CMS : Intégration personnalisée de sites web avec  systèmes de gestion, WordPress, Drupal, Joomla ...",
+        "Green Code : Conception de sites web plus respectueux de l'environnement"
       ]
     }
   ],

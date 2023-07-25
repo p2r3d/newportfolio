@@ -15,8 +15,8 @@ function Nav() {
         </div>
          {isOpenMenu ? null : (
           <div className="myName">
-            <div >Pascale</div>
-            <div >Développeuse Web</div>
+            <div ><em>Pascale</em></div>
+            <div ><em>Développeuse Web</em></div>
           </div>
         )}
       </div>
