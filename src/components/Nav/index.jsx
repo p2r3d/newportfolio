@@ -9,13 +9,18 @@ function Nav() {
   };
   return (
     <section className="navDiv">      
-      <div className='logoDiv'>
-        <a href="/#" className='logo' >
-        <i className="fa-solid fa-feather" width="50" height="50"></i>
-        </a>
+      <div className="logoDiv">
+        <div className="logo">
+          <i className="fa-solid fa-feather" width="50" height="50"></i> 
+        </div>
+         {isOpenMenu ? null : (
+          <div className="myName">
+            <div >Pascale</div>
+            <div >Développeuse Web</div>
+          </div>
+        )}
       </div>
-
-      <nav className={`navbar ${isOpenMenu ? 'open' : ''}`}>
+      <nav className={`navbar ${isOpenMenu ? "open" : ''}`}>
         <a href="/#" className="navLink" >Accueil</a> 
         <a href="#skills" className="navLink" >Compétences</a>
         <a href="#portfolio" className="navLink" >Portfolio</a>
