@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7bc716d5.css",
-    "main.js": "/static/js/main.b41ad593.js",
+    "main.css": "/static/css/main.fafb726d.css",
+    "main.js": "/static/js/main.6f9b5f9f.js",
     "static/media/booki_logements.webp": "/static/media/booki_logements.652fc6083e43468aa6e5.webp",
     "static/media/booki_activites.webp": "/static/media/booki_activites.9814f7061a6699999a0b.webp",
     "static/media/booki_accueil.webp": "/static/media/booki_accueil.4f9702808e5618d204e6.webp",
@@ -55,11 +55,11 @@
     "static/media/figma.webp": "/static/media/figma.961f8e08d24b1a29d117.webp",
     "static/media/MM_0.webp:Zone.Identifier": "/static/media/MM_0.webp:Zone.e0835b74bd0061cc646d.Identifier",
     "static/media/html5.webp:Zone.Identifier": "/static/media/html5.webp:Zone.e0835b74bd0061cc646d.Identifier",
-    "main.7bc716d5.css.map": "/static/css/main.7bc716d5.css.map",
-    "main.b41ad593.js.map": "/static/js/main.b41ad593.js.map"
+    "main.fafb726d.css.map": "/static/css/main.fafb726d.css.map",
+    "main.6f9b5f9f.js.map": "/static/js/main.6f9b5f9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bc716d5.css",
-    "static/js/main.b41ad593.js"
+    "static/css/main.fafb726d.css",
+    "static/js/main.6f9b5f9f.js"
   ]
 }
