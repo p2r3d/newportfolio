@@ -20,7 +20,7 @@ function Contact() {
        </div>
       {/* contact via formulaire emailjs géré par netlify (code fourni par netlify)*/}
       <div className='contact'>
-        <p><em>ou via le formulaire :</em></p>
+        <p><em>ou via le formulaire suivant :</em></p>
         <form 
         name="contact" 
         method="post" 

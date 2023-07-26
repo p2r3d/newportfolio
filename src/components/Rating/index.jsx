@@ -7,7 +7,7 @@ function Rating({ratings }) {
   const totalStars = 3; 
   return (
     <div className="ratingDiv"> 
-    {/*on itère sur le tableau pour choisir l'e nb d'étoiles colorées */}
+    {/*on itère sur le tableau pour choisir le nb d'étoiles colorées */}
       {[...Array(totalStars)].map((_, index) => (
         <img
           key={index}
@@ -20,5 +20,4 @@ function Rating({ratings }) {
     </div>
   );
 }
-
 export default Rating;
