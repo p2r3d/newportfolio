@@ -11,9 +11,15 @@ function SkillsS() {
       <h2>Compétences</h2>
       <div className="skillsGrid">
       {/*itération sur chaque compétence du tableau skillState.skills 
-      Collapse rendu pour chacune des compétences avec ses titre, description et image*/}
+      Collapse rendu pour chacune des compétences avec ses titre, description, image, niveau*/}
         {skillState.skills.map((skill) => (
-          <Collapse key={skill.id} title={skill.title} description={skill.Description} image={skill.icon}/>
+          <Collapse 
+          key={skill.id} 
+          title={skill.title} 
+          description={skill.Description} 
+          image={skill.icon}
+          rating={skill.rating}  
+          />
         ))}
       </div>
     </section>

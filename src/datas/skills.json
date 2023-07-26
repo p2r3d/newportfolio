@@ -3,6 +3,7 @@
     {
       "id": 1,
       "title": "Développement Front-end",
+      "rating":"2",
       "icon" : "fas fa-desktop",
       "Description": [
         "HTML5, CSS3, SASS et JavaScript : Création de sites modernes, animés et interactifs en utilisant les dernières technologies",
@@ -13,6 +14,7 @@
     {
       "id": 11,
       "title": "Développement Back-end",
+      "rating":"1",
       "icon" : "fas fa-database",
       "Description": [
         "NodeJs, Express : Création de serveurs robustes et évolutifs",
@@ -24,6 +26,7 @@
     {
       "id": 2,
       "title": "Design Web Convivial ",
+      "rating":"2",
       "icon" : "fa-solid fa-icons",
       "Description": [
         "Prototypage : Utilisation de Figma, de Miro pour la conception graphique",
@@ -34,6 +37,7 @@
     {
       "id": 4,
       "title": "Optimisation et SEO",
+      "rating":"2",
       "icon" : "fas fa-bullseye",
       "Description": [
         "Audits : Optimisation des performances d’un site web (GTMetrix,Lighthouse)",
@@ -45,6 +49,7 @@
     {
       "id": 5,
       "title": "Agilité",
+      "rating":"1",
       "icon" : "fa-solid  fa-arrows-rotate",
       "Description": [
         "Méthode Scrum :rôles définis, itérations courtes ",
@@ -57,6 +62,7 @@
     {
       "id": 6,
       "title": "Autres compétences",
+      "rating":"1",
       "icon" : "fas fa-screwdriver",
       "Description": [
         "Langages (niveau débutant): C++, python, Shell Bash",

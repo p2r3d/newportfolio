@@ -1,0 +1,29 @@
+.ratingDiv {
+  display: flex;
+  justify-content: space-around;
+  gap : 10px;
+  img {
+    height:15px;
+    width:15px;
+  }
+}
+/********** Tablette **********/
+@media screen and (min-width:769px) and (max-width: 1023px) {
+  .ratingDiv {
+    gap : 10px;
+    img {
+      width: 18px;;
+      height:18px;
+    }
+  } 
+}
+/************* Mobile *******************/
+@media screen and (max-width: 768px) {
+  .ratingDiv {
+    gap : 6.5px;
+    img {
+      width:13px;
+      height:13px;
+    }
+  }
+}
