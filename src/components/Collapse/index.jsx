@@ -12,11 +12,21 @@ function Collapse({title,description,image,rating}) {
   };
   return (
     <div className="collapseDiv" onClick={toggleCollapse}>
-      <i className={image}></i>
-      {/*affichage de la compétence */}
-      <h3>{title}</h3>
-      {/*affichage du niveau (nb étoiles) */} 
-      <Rating ratings={rating} />
+      <div className="skillTitle">
+        <i className={image}></i>
+        {/*affichage de la compétence */}
+        <h3>{title}</h3>
+        {/*affichage du niveau (nb étoiles) */} 
+        <Rating ratings={rating} />
+      </div>
+      <div className="skillPlus">
+      {/*si isOpened est false icône +, sinon icône - */}
+          {!isOpened ? (
+          <i className="fa-solid fa-circle-plus" title="Plus d'infos"></i>
+          ):(
+          <i className="fa-solid fa-circle-minus" title="Fermer"></i>
+          )}
+      </div>
       {/*si isOpened alors collapse ouvert */}
       {isOpened && (
         <div className={`descriptionDiv ${isOpened ? "visible" : ""}`}>

@@ -12,7 +12,30 @@
       ]
     },
     {
-      "id": 11,
+      "id": 2,
+      "title": "Design Web Convivial ",
+      "rating":"2",
+      "icon" : "fa-solid fa-icons",
+      "Description": [
+        "Prototypage : Utilisation de Figma, de Miro pour la conception graphique",
+        "Responsive Design : Adaptation de l'affichage des sites web aux mobiles, tablettes, ordinateurs",
+        "UX/UI Design : Création d'interfaces utilisateur intuitives pour une expérience utilisateur agréable"
+      ]
+    },    
+    {
+      "id": 3,
+      "title": "Optimisation et SEO",
+      "rating":"2",
+      "icon" : "fas fa-bullseye",
+      "Description": [
+        "Audits : Optimisation des performances d’un site web (GTMetrix,Lighthouse)",
+        "Architecture SEO-friendly : Structuration du contenu et utilisation de balises HTML appropriées pour faciliter l'indexation et le classement du site par les moteurs de recherche",
+        "Accessibilité : Respect des normes d'accessibilité pour permettre à tous les utilisateurs de naviguer et d'interagir facilement",
+        "Référencement : Balises spécifiques pour réseaux sociaux ou sur les moteurs de recherche"
+      ]
+    },    
+    {
+      "id": 4,
       "title": "Développement Back-end",
       "rating":"1",
       "icon" : "fas fa-database",
@@ -24,31 +47,8 @@
       ]
     },
     {
-      "id": 2,
-      "title": "Design Web Convivial ",
-      "rating":"2",
-      "icon" : "fa-solid fa-icons",
-      "Description": [
-        "Prototypage : Utilisation de Figma, de Miro pour la conception graphique",
-        "Responsive Design : Adaptation de l'affichage des sites web aux mobiles, tablettes, ordinateurs",
-        "UX/UI Design : Création d'interfaces utilisateur intuitives pour une expérience utilisateur agréable"
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Optimisation et SEO",
-      "rating":"2",
-      "icon" : "fas fa-bullseye",
-      "Description": [
-        "Audits : Optimisation des performances d’un site web (GTMetrix,Lighthouse)",
-        "Architecture SEO-friendly : Structuration du contenu et utilisation de balises HTML appropriées pour faciliter l'indexation et le classement du site par les moteurs de recherche",
-        "Accessibilité : Respect des normes d'accessibilité pour permettre à tous les utilisateurs de naviguer et d'interagir facilement",
-        "Référencement : Balises spécifiques pour réseaux sociaux ou sur les moteurs de recherche"
-      ]
-    },
-    {
       "id": 5,
-      "title": "Agilité",
+      "title": "Gestion de projet Agile",
       "rating":"1",
       "icon" : "fa-solid  fa-arrows-rotate",
       "Description": [

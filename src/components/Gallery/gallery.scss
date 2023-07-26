@@ -2,7 +2,7 @@
 
 .galleryDiv {
   background-color: $portfolio-background-color-grey;
-  padding:0 20px;
+  padding:5px 20px;
   .cardsDiv {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

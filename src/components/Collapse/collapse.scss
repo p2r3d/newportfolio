@@ -3,7 +3,7 @@
 
 .collapseDiv {
   @include flex-col-center;
-  justify-content:flex-start;
+
   flex-wrap: wrap;
   border: 1px solid $font-color;
   width:100%;
@@ -11,14 +11,22 @@
   background-color: $portfolio-background-color-grey;
   padding:10px 0;
   cursor: pointer;
-  h3{
-    text-align: center;
-    font-size: 24px;
-    margin:10px;
+  .skillTitle {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    h3{
+      text-align: center;
+      font-size: 24px;
+      margin:10px;
+    }
+    i {
+      padding-top: 10px;
+      font-size: 2rem;
+    }
   }
-  i {
-    padding-top: 10px;
-    font-size: 2rem;
+  .skillPlus .fa-solid {
+    display:none;
   }
   .descriptionDiv {
     max-height:150px; 
@@ -45,7 +53,6 @@
       }
     }
   }    
-
   &:hover {
     background-color:$portfolio-background-color;
     color:$font-color;
@@ -58,14 +65,22 @@
 
 /************* Tablette *******************/
 @media screen and (min-width:770px) and (max-width: 1023px){
-  .collapseDiv {
-    h3{
-      font-size: 22px;
+  .collapseDiv {   
+    .skillTitle {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      h3{
+        font-size: 22px;
+      }
+      i {
+        padding-top: 10px;
+        font-size: 1.5rem;
+      }
     }
-    i {
-      padding-top: 10px;
-      font-size: 1.5rem;
-    }
+    .skillPlus .fa-solid {
+      display:none;
+    }    
     .descriptionDiv {
       .detailsContainer {
         .titleDesc {
@@ -91,19 +106,32 @@
     display:flex;
     flex-direction: row;
     align-items:center;
-    gap:10px;
+    justify-content: space-between;
+    gap:0px;
     padding: 0;
-    h3{
-      font-size: 1rem;
+    .skillTitle {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: left;
+      h3{
+        font-size: 1rem;
+      }
+      i {
+        padding-top: 1px;
+        font-size: 1.5rem;
+      }
     }
-    i {
-      padding-top: 10px;
+    .skillPlus .fa-solid {
+      display:block;
       font-size: 1.5rem;
+      opacity: 80%;
     }
     .descriptionDiv {
       display: flex;
       flex-direction: column;
       padding-bottom: 5px;
+      width:100%;
       .detailsContainer {
         @include flex-col-center;  
         padding : 3px;
