@@ -37,7 +37,7 @@
            "technos": [1,2,3,8],
            "pictures":["SB_0.webp","SB_1.webp","SB_2.webp"],
            "code" : "https://github.com/p2r3d/P3_SophieBluel",
-           "site" : "",
+           "site" : "https://p2r3d.github.io/SB/",
            "projectDetails" : {
               "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web »",
               "mission" : "Développer en JavaScript la page web dynamique d’une architecte mettant en valeur ses travaux avec des options de filtrage par catégorie, ainsi que des fonctionnalités d'ajout et de suppression de travaux",
@@ -136,7 +136,7 @@
            "technos": [4,5,7,8,10],
            "pictures":["kasa_cap.webp","kasa_cap1.webp","kasa_cap2.webp"],
            "code" : "https://github.com/p2r3d/p6_kasa",
-           "site" : "",
+           "site" : "https://p2r3dkasa.netlify.app",
            "projectDetails" : {
               "origin": "Projet réalisé dans le cadre de ma formation Openclassrooms « Développeur Web »",
               "mission" : "Développer le code front-end d’un site de location d’hébergements avec React",
