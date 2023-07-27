@@ -1,19 +1,20 @@
 .ratingDiv {
   display: flex;
   justify-content: space-around;
-  gap : 10px;
+  gap : 8px;
   img {
     height:15px;
     width:15px;
+    filter:grayscale(50%);
   }
 }
 /********** Tablette **********/
 @media screen and (min-width:769px) and (max-width: 1023px) {
   .ratingDiv {
-    gap : 10px;
+    gap : 6px;
     img {
-      width: 18px;;
-      height:18px;
+      width: 14px;;
+      height:14px;
     }
   } 
 }
