@@ -29,11 +29,11 @@ function Contact() {
         >
           <input type="hidden" name="form-name" value="contact" />
           <label htmlFor="name" className='formLabel' id="name">Nom </label>
-          <input type="text" className='formInput' name="name"/>
+          <input type="text" className='formInput' name="name" required/>
           <label htmlFor="email" className='formLabel'>email</label>
-          <input type="email" className='formInput' name="email"/>
+          <input type="email" className='formInput' name="email" required/>
           <label htmlFor="message" className='formLabel'>Message </label>
-          <textarea name="message" className='formTextarea'></textarea>
+          <textarea name="message" className='formTextarea' required></textarea>
           <button type="submit" className='formBtn'>Envoyer</button>
         </form>
       </div>
