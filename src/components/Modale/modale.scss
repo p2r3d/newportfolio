@@ -20,6 +20,7 @@
     padding: 20px;
     background-color:$portfolio-background-color;
     position: relative;
+    overflow-y: auto;
     .intro {
       @include flex-col-center;
       .modalCloseBtn {
